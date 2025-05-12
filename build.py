@@ -12,7 +12,8 @@ header = """
 <body>
     <header>
     <h1>CoinJoin Statistics</h1>
-    <p></p>
+    <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> </p>
+
     </header>
 """
 
