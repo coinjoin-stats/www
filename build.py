@@ -33,7 +33,7 @@ footer = """
     document.querySelectorAll('.grid-item img').forEach(img => {
       img.addEventListener('click', () => {
         lightbox.style.display = 'flex';
-        lightboxImg.src = img.src;
+        lightboxImg.src = img.getAttribute('data-full');
       });
     });
   
@@ -65,10 +65,11 @@ def traverse_directories(root_dir):
 
         for filename in filenames:
             filepath = os.path.join(dirpath, filename)
+            thumbnail = "./thumbnails/" + "/".join(filepath.split("/")[2:])
 
             output += f"""   
         <div class="grid-item">
-        <img src="{filepath}" alt="{filename}" />
+        <img src="{thumbnail}" data-full="{filepath}" alt="{filename}" />
         </div>
 """
         
