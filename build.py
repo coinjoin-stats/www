@@ -1,6 +1,7 @@
 import os
+import datetime
 
-header = """
+header = f"""
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +13,7 @@ header = """
 <body>
     <header>
     <h1>CoinJoin Statistics</h1>
+    <p class="update">Last updated: {datetime.datetime.today().strftime('%d-%m-%Y')}</p>
     <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> </p>
 
     </header>
