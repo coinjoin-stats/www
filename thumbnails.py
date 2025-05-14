@@ -5,6 +5,8 @@ from PIL import Image
 def resize_image(input_path, output_path, scale=0.5):
     """Resize the image by a given scale factor."""
     with Image.open(input_path) as img:
+        if img.height == 900:
+            scale = max(scale, 0.2)
         new_size = (int(img.width * scale), int(img.height * scale))
         resized_img = img.resize(new_size)
         resized_img.save(output_path)
@@ -38,6 +40,6 @@ def copy_and_resize_images(src_dir, dst_dir, scale=0.5):
 # --- Usage ---
 source_directory = "./figures/"
 destination_directory = "./thumbnails/"
-scale_factor = 0.1  
+scale_factor = 0.15
 
 copy_and_resize_images(source_directory, destination_directory, scale=scale_factor)
