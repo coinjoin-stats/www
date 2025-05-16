@@ -14,8 +14,8 @@ header = f"""
     <header>
     <h1>CoinJoin Statistics</h1>
     <p class="update">Last updated: {datetime.datetime.today().strftime('%d-%m-%Y')}</p>
-    <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> </p>
-
+    <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> <br>
+    Coinjoin datasets and high-resolution visualizations :  <a href="https://drive.google.com/drive/folders/1iT4HqmXLas-x4pxUexgdc-SEyyWLeYzm?usp=sharing">Google drive</a> </p>
     </header>
 """
 
