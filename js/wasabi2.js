@@ -705,6 +705,15 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
+
+    <h2>Flows</h2>
+    
+    <iframe src="./flows/coordinator_flows_counts_.html">
+        Your browser does not support iframes.
+    </iframe>
+    <iframe src="./flows/coordinator_flows_values_.html">
+        Your browser does not support iframes.
+    </iframe>
 `,
     zksnacks: `    <div class="container">   
         <div class="grid-item">
