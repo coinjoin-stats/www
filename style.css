@@ -6,8 +6,15 @@ body {
 }
 
 header {
+  background: #fff;
+  padding: 40px 20px 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   text-align: center;
   margin-bottom: 40px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header h1 {
@@ -19,7 +26,66 @@ header h1 {
 header p {
   font-size: 1.2rem;
   color: #555;
-  margin-top: 10px;
+  margin: 10px 0 20px;
+}
+
+.menu {
+  padding-top: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.menu a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.menu a.current {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+.selector {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selector label {
+  margin-right: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.selector select {
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.selector select:hover {
+  border-color: #888;
 }
 
 .update {

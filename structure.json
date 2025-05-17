@@ -1,0 +1,34 @@
+{
+    "pages":{
+        "index":{
+            "name":"Overview"
+        },
+        "wasabi2":{
+            "name":"Wasabi 2",
+            "coordinators": [
+                {
+                    "dir":"all",
+                    "name": "All coordinators"
+                },
+                {
+                    "dir": "zksnacks",
+                    "name": "zkSNACKs"
+                },
+                {
+                    "dir": "kruw",
+                    "name": "kruw.io"
+                },
+                {
+                    "dir": "btip",
+                    "name": "btip.nl"
+                }
+            ]
+        },
+        "wasabi1":{
+            "name":"Wasabi 1"
+        },
+        "whirlpool":{
+            "name":"Whirlpool"
+        }
+    }
+}

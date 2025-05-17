@@ -16,7 +16,7 @@ def is_image_file(filename):
     image_extensions = ['.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff', '.webp']
     return any(filename.lower().endswith(ext) for ext in image_extensions)
 
-def copy_and_resize_images(src_dir, dst_dir, scale=0.5):
+def copy_and_resize_images(src_dir, dst_dir, scale=0.5, overwrite=False):
     """Copy directory structure and resize image files."""
     for root, dirs, files in os.walk(src_dir):
         relative_path = os.path.relpath(root, src_dir)
@@ -27,19 +27,18 @@ def copy_and_resize_images(src_dir, dst_dir, scale=0.5):
             src_file_path = os.path.join(root, file)
             dst_file_path = os.path.join(target_root, file)
 
-            if is_image_file(file):
+            if is_image_file(file) and (overwrite or not os.path.isfile(dst_file_path)):
                 try:
                     resize_image(src_file_path, dst_file_path, scale)
                     print(f"Resized: {dst_file_path}")
                 except Exception as e:
                     print(f"Failed to resize {src_file_path}: {e}")
-            else:
-                shutil.copy2(src_file_path, dst_file_path)
-                print(f"Copied (non-image): {dst_file_path}")
+            
 
 # --- Usage ---
 source_directory = "./figures/"
 destination_directory = "./thumbnails/"
 scale_factor = 0.15
+o=False
 
-copy_and_resize_images(source_directory, destination_directory, scale=scale_factor)
+copy_and_resize_images(source_directory, destination_directory, scale=scale_factor, overwrite=o)
