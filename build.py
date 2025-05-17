@@ -99,6 +99,19 @@ def traverse_directories(root_dir, starting_depth):
     return output
 
 def selection_script(coordinators, script_name, start_directory):
+    flows = """
+    <h2>Flows</h2>
+    
+    <iframe src="./flows/coordinator_flows_counts_.html">
+        Your browser does not support iframes.
+    </iframe>
+    <iframe src="./flows/coordinator_flows_values_.html">
+        Your browser does not support iframes.
+    </iframe>
+    <iframe src="./flows/coordinator_flows_values_incl_zksnacks.html">
+        Your browser does not support iframes.
+    </iframe>
+"""
     newline = "\n"
     script = f"""
 document.addEventListener("DOMContentLoaded", function () {{
@@ -106,7 +119,10 @@ const select = document.getElementById("category");
 const container = document.getElementById("containers");
 
 const contentMap = {{
-{(","+newline).join(['    '+c["dir"] + ': `' + traverse_directories(start_directory + "/" + c["dir"], 2)+ '`' for c in coordinators])}
+{(","+newline).join(['    '+c["dir"] + ': `' + 
+                     traverse_directories(start_directory + "/" + c["dir"], 2)+ 
+                     (flows if c["dir"]=="all" else "") + '`'
+                     for c in coordinators])}
 }};
 
   function updateContent() {{

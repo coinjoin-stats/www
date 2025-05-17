@@ -21,688 +21,688 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/all/wasabi1_cummul_nums_notnorm.png" data-full="./figures/wasabi2/all/wasabi1_cummul_nums_notnorm.png" alt="wasabi1_cummul_nums_notnorm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2022 June</h2>
+    <h2>Wasabi 2 (All coordinators) - 2022 June</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/000_Wasabi_2_-_2022_June/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/000_Wasabi_2_-_2022_June/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/000_Wasabi_2_(All_coordinators)_-_2022_June/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/000_Wasabi_2_(All_coordinators)_-_2022_June/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/000_Wasabi_2_-_2022_June/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/000_Wasabi_2_-_2022_June/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/000_Wasabi_2_(All_coordinators)_-_2022_June/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/000_Wasabi_2_(All_coordinators)_-_2022_June/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/000_Wasabi_2_-_2022_June/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/000_Wasabi_2_-_2022_June/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/000_Wasabi_2_(All_coordinators)_-_2022_June/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/000_Wasabi_2_(All_coordinators)_-_2022_June/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/000_Wasabi_2_-_2022_June/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/000_Wasabi_2_-_2022_June/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/000_Wasabi_2_(All_coordinators)_-_2022_June/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/000_Wasabi_2_(All_coordinators)_-_2022_June/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2022 July</h2>
+    <h2>Wasabi 2 (All coordinators) - 2022 July</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/001_Wasabi_2_-_2022_July/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/001_Wasabi_2_-_2022_July/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/001_Wasabi_2_(All_coordinators)_-_2022_July/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/001_Wasabi_2_(All_coordinators)_-_2022_July/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/001_Wasabi_2_-_2022_July/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/001_Wasabi_2_-_2022_July/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/001_Wasabi_2_(All_coordinators)_-_2022_July/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/001_Wasabi_2_(All_coordinators)_-_2022_July/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/001_Wasabi_2_-_2022_July/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/001_Wasabi_2_-_2022_July/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/001_Wasabi_2_(All_coordinators)_-_2022_July/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/001_Wasabi_2_(All_coordinators)_-_2022_July/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/001_Wasabi_2_-_2022_July/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/001_Wasabi_2_-_2022_July/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/001_Wasabi_2_(All_coordinators)_-_2022_July/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/001_Wasabi_2_(All_coordinators)_-_2022_July/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2022 August</h2>
+    <h2>Wasabi 2 (All coordinators) - 2022 August</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/002_Wasabi_2_-_2022_August/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/002_Wasabi_2_-_2022_August/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/002_Wasabi_2_(All_coordinators)_-_2022_August/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/002_Wasabi_2_(All_coordinators)_-_2022_August/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/002_Wasabi_2_-_2022_August/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/002_Wasabi_2_-_2022_August/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/002_Wasabi_2_(All_coordinators)_-_2022_August/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/002_Wasabi_2_(All_coordinators)_-_2022_August/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/002_Wasabi_2_-_2022_August/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/002_Wasabi_2_-_2022_August/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/002_Wasabi_2_(All_coordinators)_-_2022_August/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/002_Wasabi_2_(All_coordinators)_-_2022_August/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/002_Wasabi_2_-_2022_August/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/002_Wasabi_2_-_2022_August/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/002_Wasabi_2_(All_coordinators)_-_2022_August/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/002_Wasabi_2_(All_coordinators)_-_2022_August/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2022 September</h2>
+    <h2>Wasabi 2 (All coordinators) - 2022 September</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/003_Wasabi_2_-_2022_September/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/003_Wasabi_2_-_2022_September/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/003_Wasabi_2_(All_coordinators)_-_2022_September/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/003_Wasabi_2_(All_coordinators)_-_2022_September/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/003_Wasabi_2_-_2022_September/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/003_Wasabi_2_-_2022_September/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/003_Wasabi_2_(All_coordinators)_-_2022_September/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/003_Wasabi_2_(All_coordinators)_-_2022_September/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/003_Wasabi_2_-_2022_September/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/003_Wasabi_2_-_2022_September/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/003_Wasabi_2_(All_coordinators)_-_2022_September/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/003_Wasabi_2_(All_coordinators)_-_2022_September/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/003_Wasabi_2_-_2022_September/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/003_Wasabi_2_-_2022_September/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/003_Wasabi_2_(All_coordinators)_-_2022_September/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/003_Wasabi_2_(All_coordinators)_-_2022_September/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2022 October</h2>
+    <h2>Wasabi 2 (All coordinators) - 2022 October</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/004_Wasabi_2_-_2022_October/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/004_Wasabi_2_-_2022_October/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/004_Wasabi_2_(All_coordinators)_-_2022_October/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/004_Wasabi_2_(All_coordinators)_-_2022_October/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/004_Wasabi_2_-_2022_October/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/004_Wasabi_2_-_2022_October/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/004_Wasabi_2_(All_coordinators)_-_2022_October/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/004_Wasabi_2_(All_coordinators)_-_2022_October/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/004_Wasabi_2_-_2022_October/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/004_Wasabi_2_-_2022_October/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/004_Wasabi_2_(All_coordinators)_-_2022_October/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/004_Wasabi_2_(All_coordinators)_-_2022_October/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/004_Wasabi_2_-_2022_October/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/004_Wasabi_2_-_2022_October/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/004_Wasabi_2_(All_coordinators)_-_2022_October/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/004_Wasabi_2_(All_coordinators)_-_2022_October/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2022 November</h2>
+    <h2>Wasabi 2 (All coordinators) - 2022 November</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/005_Wasabi_2_-_2022_November/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/005_Wasabi_2_-_2022_November/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/005_Wasabi_2_(All_coordinators)_-_2022_November/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/005_Wasabi_2_(All_coordinators)_-_2022_November/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/005_Wasabi_2_-_2022_November/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/005_Wasabi_2_-_2022_November/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/005_Wasabi_2_(All_coordinators)_-_2022_November/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/005_Wasabi_2_(All_coordinators)_-_2022_November/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/005_Wasabi_2_-_2022_November/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/005_Wasabi_2_-_2022_November/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/005_Wasabi_2_(All_coordinators)_-_2022_November/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/005_Wasabi_2_(All_coordinators)_-_2022_November/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/005_Wasabi_2_-_2022_November/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/005_Wasabi_2_-_2022_November/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/005_Wasabi_2_(All_coordinators)_-_2022_November/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/005_Wasabi_2_(All_coordinators)_-_2022_November/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2022 December</h2>
+    <h2>Wasabi 2 (All coordinators) - 2022 December</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/006_Wasabi_2_-_2022_December/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/006_Wasabi_2_-_2022_December/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/006_Wasabi_2_(All_coordinators)_-_2022_December/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/006_Wasabi_2_(All_coordinators)_-_2022_December/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/006_Wasabi_2_-_2022_December/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/006_Wasabi_2_-_2022_December/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/006_Wasabi_2_(All_coordinators)_-_2022_December/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/006_Wasabi_2_(All_coordinators)_-_2022_December/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/006_Wasabi_2_-_2022_December/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/006_Wasabi_2_-_2022_December/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/006_Wasabi_2_(All_coordinators)_-_2022_December/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/006_Wasabi_2_(All_coordinators)_-_2022_December/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/006_Wasabi_2_-_2022_December/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/006_Wasabi_2_-_2022_December/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/006_Wasabi_2_(All_coordinators)_-_2022_December/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/006_Wasabi_2_(All_coordinators)_-_2022_December/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 January</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 January</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/007_Wasabi_2_-_2023_January/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/007_Wasabi_2_-_2023_January/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/007_Wasabi_2_(All_coordinators)_-_2023_January/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/007_Wasabi_2_(All_coordinators)_-_2023_January/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/007_Wasabi_2_-_2023_January/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/007_Wasabi_2_-_2023_January/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/007_Wasabi_2_(All_coordinators)_-_2023_January/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/007_Wasabi_2_(All_coordinators)_-_2023_January/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/007_Wasabi_2_-_2023_January/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/007_Wasabi_2_-_2023_January/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/007_Wasabi_2_(All_coordinators)_-_2023_January/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/007_Wasabi_2_(All_coordinators)_-_2023_January/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/007_Wasabi_2_-_2023_January/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/007_Wasabi_2_-_2023_January/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/007_Wasabi_2_(All_coordinators)_-_2023_January/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/007_Wasabi_2_(All_coordinators)_-_2023_January/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 February</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 February</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/008_Wasabi_2_-_2023_February/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/008_Wasabi_2_-_2023_February/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/008_Wasabi_2_(All_coordinators)_-_2023_February/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/008_Wasabi_2_(All_coordinators)_-_2023_February/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/008_Wasabi_2_-_2023_February/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/008_Wasabi_2_-_2023_February/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/008_Wasabi_2_(All_coordinators)_-_2023_February/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/008_Wasabi_2_(All_coordinators)_-_2023_February/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/008_Wasabi_2_-_2023_February/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/008_Wasabi_2_-_2023_February/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/008_Wasabi_2_(All_coordinators)_-_2023_February/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/008_Wasabi_2_(All_coordinators)_-_2023_February/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/008_Wasabi_2_-_2023_February/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/008_Wasabi_2_-_2023_February/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/008_Wasabi_2_(All_coordinators)_-_2023_February/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/008_Wasabi_2_(All_coordinators)_-_2023_February/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 March</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 March</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/009_Wasabi_2_-_2023_March/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/009_Wasabi_2_-_2023_March/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/009_Wasabi_2_(All_coordinators)_-_2023_March/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/009_Wasabi_2_(All_coordinators)_-_2023_March/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/009_Wasabi_2_-_2023_March/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/009_Wasabi_2_-_2023_March/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/009_Wasabi_2_(All_coordinators)_-_2023_March/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/009_Wasabi_2_(All_coordinators)_-_2023_March/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/009_Wasabi_2_-_2023_March/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/009_Wasabi_2_-_2023_March/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/009_Wasabi_2_(All_coordinators)_-_2023_March/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/009_Wasabi_2_(All_coordinators)_-_2023_March/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/009_Wasabi_2_-_2023_March/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/009_Wasabi_2_-_2023_March/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/009_Wasabi_2_(All_coordinators)_-_2023_March/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/009_Wasabi_2_(All_coordinators)_-_2023_March/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 April</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 April</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/010_Wasabi_2_-_2023_April/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/010_Wasabi_2_-_2023_April/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/010_Wasabi_2_(All_coordinators)_-_2023_April/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/010_Wasabi_2_(All_coordinators)_-_2023_April/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/010_Wasabi_2_-_2023_April/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/010_Wasabi_2_-_2023_April/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/010_Wasabi_2_(All_coordinators)_-_2023_April/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/010_Wasabi_2_(All_coordinators)_-_2023_April/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/010_Wasabi_2_-_2023_April/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/010_Wasabi_2_-_2023_April/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/010_Wasabi_2_(All_coordinators)_-_2023_April/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/010_Wasabi_2_(All_coordinators)_-_2023_April/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/010_Wasabi_2_-_2023_April/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/010_Wasabi_2_-_2023_April/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/010_Wasabi_2_(All_coordinators)_-_2023_April/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/010_Wasabi_2_(All_coordinators)_-_2023_April/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 May</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 May</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/011_Wasabi_2_-_2023_May/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/011_Wasabi_2_-_2023_May/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/011_Wasabi_2_(All_coordinators)_-_2023_May/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/011_Wasabi_2_(All_coordinators)_-_2023_May/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/011_Wasabi_2_-_2023_May/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/011_Wasabi_2_-_2023_May/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/011_Wasabi_2_(All_coordinators)_-_2023_May/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/011_Wasabi_2_(All_coordinators)_-_2023_May/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/011_Wasabi_2_-_2023_May/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/011_Wasabi_2_-_2023_May/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/011_Wasabi_2_(All_coordinators)_-_2023_May/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/011_Wasabi_2_(All_coordinators)_-_2023_May/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/011_Wasabi_2_-_2023_May/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/011_Wasabi_2_-_2023_May/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/011_Wasabi_2_(All_coordinators)_-_2023_May/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/011_Wasabi_2_(All_coordinators)_-_2023_May/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 June</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 June</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/012_Wasabi_2_-_2023_June/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/012_Wasabi_2_-_2023_June/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/012_Wasabi_2_(All_coordinators)_-_2023_June/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/012_Wasabi_2_(All_coordinators)_-_2023_June/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/012_Wasabi_2_-_2023_June/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/012_Wasabi_2_-_2023_June/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/012_Wasabi_2_(All_coordinators)_-_2023_June/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/012_Wasabi_2_(All_coordinators)_-_2023_June/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/012_Wasabi_2_-_2023_June/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/012_Wasabi_2_-_2023_June/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/012_Wasabi_2_(All_coordinators)_-_2023_June/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/012_Wasabi_2_(All_coordinators)_-_2023_June/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/012_Wasabi_2_-_2023_June/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/012_Wasabi_2_-_2023_June/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/012_Wasabi_2_(All_coordinators)_-_2023_June/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/012_Wasabi_2_(All_coordinators)_-_2023_June/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 July</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 July</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/013_Wasabi_2_-_2023_July/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/013_Wasabi_2_-_2023_July/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/013_Wasabi_2_(All_coordinators)_-_2023_July/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/013_Wasabi_2_(All_coordinators)_-_2023_July/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/013_Wasabi_2_-_2023_July/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/013_Wasabi_2_-_2023_July/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/013_Wasabi_2_(All_coordinators)_-_2023_July/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/013_Wasabi_2_(All_coordinators)_-_2023_July/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/013_Wasabi_2_-_2023_July/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/013_Wasabi_2_-_2023_July/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/013_Wasabi_2_(All_coordinators)_-_2023_July/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/013_Wasabi_2_(All_coordinators)_-_2023_July/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/013_Wasabi_2_-_2023_July/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/013_Wasabi_2_-_2023_July/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/013_Wasabi_2_(All_coordinators)_-_2023_July/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/013_Wasabi_2_(All_coordinators)_-_2023_July/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 August</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 August</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/014_Wasabi_2_-_2023_August/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/014_Wasabi_2_-_2023_August/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/014_Wasabi_2_(All_coordinators)_-_2023_August/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/014_Wasabi_2_(All_coordinators)_-_2023_August/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/014_Wasabi_2_-_2023_August/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/014_Wasabi_2_-_2023_August/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/014_Wasabi_2_(All_coordinators)_-_2023_August/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/014_Wasabi_2_(All_coordinators)_-_2023_August/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/014_Wasabi_2_-_2023_August/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/014_Wasabi_2_-_2023_August/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/014_Wasabi_2_(All_coordinators)_-_2023_August/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/014_Wasabi_2_(All_coordinators)_-_2023_August/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/014_Wasabi_2_-_2023_August/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/014_Wasabi_2_-_2023_August/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/014_Wasabi_2_(All_coordinators)_-_2023_August/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/014_Wasabi_2_(All_coordinators)_-_2023_August/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 September</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 September</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/015_Wasabi_2_-_2023_September/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/015_Wasabi_2_-_2023_September/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/015_Wasabi_2_(All_coordinators)_-_2023_September/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/015_Wasabi_2_(All_coordinators)_-_2023_September/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/015_Wasabi_2_-_2023_September/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/015_Wasabi_2_-_2023_September/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/015_Wasabi_2_(All_coordinators)_-_2023_September/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/015_Wasabi_2_(All_coordinators)_-_2023_September/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/015_Wasabi_2_-_2023_September/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/015_Wasabi_2_-_2023_September/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/015_Wasabi_2_(All_coordinators)_-_2023_September/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/015_Wasabi_2_(All_coordinators)_-_2023_September/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/015_Wasabi_2_-_2023_September/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/015_Wasabi_2_-_2023_September/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/015_Wasabi_2_(All_coordinators)_-_2023_September/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/015_Wasabi_2_(All_coordinators)_-_2023_September/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 October</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 October</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/016_Wasabi_2_-_2023_October/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/016_Wasabi_2_-_2023_October/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/016_Wasabi_2_(All_coordinators)_-_2023_October/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/016_Wasabi_2_(All_coordinators)_-_2023_October/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/016_Wasabi_2_-_2023_October/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/016_Wasabi_2_-_2023_October/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/016_Wasabi_2_(All_coordinators)_-_2023_October/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/016_Wasabi_2_(All_coordinators)_-_2023_October/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/016_Wasabi_2_-_2023_October/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/016_Wasabi_2_-_2023_October/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/016_Wasabi_2_(All_coordinators)_-_2023_October/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/016_Wasabi_2_(All_coordinators)_-_2023_October/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/016_Wasabi_2_-_2023_October/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/016_Wasabi_2_-_2023_October/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/016_Wasabi_2_(All_coordinators)_-_2023_October/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/016_Wasabi_2_(All_coordinators)_-_2023_October/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 November</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 November</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/017_Wasabi_2_-_2023_November/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/017_Wasabi_2_-_2023_November/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/017_Wasabi_2_(All_coordinators)_-_2023_November/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/017_Wasabi_2_(All_coordinators)_-_2023_November/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/017_Wasabi_2_-_2023_November/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/017_Wasabi_2_-_2023_November/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/017_Wasabi_2_(All_coordinators)_-_2023_November/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/017_Wasabi_2_(All_coordinators)_-_2023_November/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/017_Wasabi_2_-_2023_November/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/017_Wasabi_2_-_2023_November/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/017_Wasabi_2_(All_coordinators)_-_2023_November/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/017_Wasabi_2_(All_coordinators)_-_2023_November/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/017_Wasabi_2_-_2023_November/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/017_Wasabi_2_-_2023_November/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/017_Wasabi_2_(All_coordinators)_-_2023_November/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/017_Wasabi_2_(All_coordinators)_-_2023_November/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2023 December</h2>
+    <h2>Wasabi 2 (All coordinators) - 2023 December</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/018_Wasabi_2_-_2023_December/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/018_Wasabi_2_-_2023_December/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/018_Wasabi_2_(All_coordinators)_-_2023_December/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/018_Wasabi_2_(All_coordinators)_-_2023_December/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/018_Wasabi_2_-_2023_December/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/018_Wasabi_2_-_2023_December/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/018_Wasabi_2_(All_coordinators)_-_2023_December/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/018_Wasabi_2_(All_coordinators)_-_2023_December/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/018_Wasabi_2_-_2023_December/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/018_Wasabi_2_-_2023_December/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/018_Wasabi_2_(All_coordinators)_-_2023_December/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/018_Wasabi_2_(All_coordinators)_-_2023_December/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/018_Wasabi_2_-_2023_December/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/018_Wasabi_2_-_2023_December/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/018_Wasabi_2_(All_coordinators)_-_2023_December/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/018_Wasabi_2_(All_coordinators)_-_2023_December/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 January</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 January</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/019_Wasabi_2_-_2024_January/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/019_Wasabi_2_-_2024_January/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/019_Wasabi_2_(All_coordinators)_-_2024_January/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/019_Wasabi_2_(All_coordinators)_-_2024_January/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/019_Wasabi_2_-_2024_January/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/019_Wasabi_2_-_2024_January/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/019_Wasabi_2_(All_coordinators)_-_2024_January/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/019_Wasabi_2_(All_coordinators)_-_2024_January/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/019_Wasabi_2_-_2024_January/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/019_Wasabi_2_-_2024_January/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/019_Wasabi_2_(All_coordinators)_-_2024_January/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/019_Wasabi_2_(All_coordinators)_-_2024_January/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/019_Wasabi_2_-_2024_January/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/019_Wasabi_2_-_2024_January/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/019_Wasabi_2_(All_coordinators)_-_2024_January/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/019_Wasabi_2_(All_coordinators)_-_2024_January/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 February</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 February</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/020_Wasabi_2_-_2024_February/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/020_Wasabi_2_-_2024_February/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/020_Wasabi_2_(All_coordinators)_-_2024_February/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/020_Wasabi_2_(All_coordinators)_-_2024_February/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/020_Wasabi_2_-_2024_February/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/020_Wasabi_2_-_2024_February/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/020_Wasabi_2_(All_coordinators)_-_2024_February/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/020_Wasabi_2_(All_coordinators)_-_2024_February/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/020_Wasabi_2_-_2024_February/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/020_Wasabi_2_-_2024_February/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/020_Wasabi_2_(All_coordinators)_-_2024_February/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/020_Wasabi_2_(All_coordinators)_-_2024_February/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/020_Wasabi_2_-_2024_February/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/020_Wasabi_2_-_2024_February/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/020_Wasabi_2_(All_coordinators)_-_2024_February/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/020_Wasabi_2_(All_coordinators)_-_2024_February/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 March</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 March</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/021_Wasabi_2_-_2024_March/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/021_Wasabi_2_-_2024_March/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/021_Wasabi_2_(All_coordinators)_-_2024_March/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/021_Wasabi_2_(All_coordinators)_-_2024_March/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/021_Wasabi_2_-_2024_March/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/021_Wasabi_2_-_2024_March/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/021_Wasabi_2_(All_coordinators)_-_2024_March/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/021_Wasabi_2_(All_coordinators)_-_2024_March/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/021_Wasabi_2_-_2024_March/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/021_Wasabi_2_-_2024_March/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/021_Wasabi_2_(All_coordinators)_-_2024_March/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/021_Wasabi_2_(All_coordinators)_-_2024_March/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/021_Wasabi_2_-_2024_March/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/021_Wasabi_2_-_2024_March/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/021_Wasabi_2_(All_coordinators)_-_2024_March/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/021_Wasabi_2_(All_coordinators)_-_2024_March/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 April</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 April</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/022_Wasabi_2_-_2024_April/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/022_Wasabi_2_-_2024_April/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/022_Wasabi_2_(All_coordinators)_-_2024_April/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/022_Wasabi_2_(All_coordinators)_-_2024_April/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/022_Wasabi_2_-_2024_April/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/022_Wasabi_2_-_2024_April/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/022_Wasabi_2_(All_coordinators)_-_2024_April/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/022_Wasabi_2_(All_coordinators)_-_2024_April/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/022_Wasabi_2_-_2024_April/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/022_Wasabi_2_-_2024_April/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/022_Wasabi_2_(All_coordinators)_-_2024_April/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/022_Wasabi_2_(All_coordinators)_-_2024_April/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/022_Wasabi_2_-_2024_April/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/022_Wasabi_2_-_2024_April/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/022_Wasabi_2_(All_coordinators)_-_2024_April/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/022_Wasabi_2_(All_coordinators)_-_2024_April/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 May</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 May</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/023_Wasabi_2_-_2024_May/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/023_Wasabi_2_-_2024_May/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/023_Wasabi_2_(All_coordinators)_-_2024_May/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/023_Wasabi_2_(All_coordinators)_-_2024_May/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/023_Wasabi_2_-_2024_May/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/023_Wasabi_2_-_2024_May/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/023_Wasabi_2_(All_coordinators)_-_2024_May/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/023_Wasabi_2_(All_coordinators)_-_2024_May/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/023_Wasabi_2_-_2024_May/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/023_Wasabi_2_-_2024_May/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/023_Wasabi_2_(All_coordinators)_-_2024_May/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/023_Wasabi_2_(All_coordinators)_-_2024_May/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/023_Wasabi_2_-_2024_May/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/023_Wasabi_2_-_2024_May/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/023_Wasabi_2_(All_coordinators)_-_2024_May/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/023_Wasabi_2_(All_coordinators)_-_2024_May/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 June</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 June</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/024_Wasabi_2_-_2024_June/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/024_Wasabi_2_-_2024_June/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/024_Wasabi_2_(All_coordinators)_-_2024_June/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/024_Wasabi_2_(All_coordinators)_-_2024_June/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/024_Wasabi_2_-_2024_June/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/024_Wasabi_2_-_2024_June/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/024_Wasabi_2_(All_coordinators)_-_2024_June/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/024_Wasabi_2_(All_coordinators)_-_2024_June/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/024_Wasabi_2_-_2024_June/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/024_Wasabi_2_-_2024_June/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/024_Wasabi_2_(All_coordinators)_-_2024_June/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/024_Wasabi_2_(All_coordinators)_-_2024_June/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/024_Wasabi_2_-_2024_June/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/024_Wasabi_2_-_2024_June/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/024_Wasabi_2_(All_coordinators)_-_2024_June/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/024_Wasabi_2_(All_coordinators)_-_2024_June/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 July</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 July</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/025_Wasabi_2_-_2024_July/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/025_Wasabi_2_-_2024_July/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/025_Wasabi_2_(All_coordinators)_-_2024_July/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/025_Wasabi_2_(All_coordinators)_-_2024_July/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/025_Wasabi_2_-_2024_July/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/025_Wasabi_2_-_2024_July/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/025_Wasabi_2_(All_coordinators)_-_2024_July/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/025_Wasabi_2_(All_coordinators)_-_2024_July/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/025_Wasabi_2_-_2024_July/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/025_Wasabi_2_-_2024_July/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/025_Wasabi_2_(All_coordinators)_-_2024_July/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/025_Wasabi_2_(All_coordinators)_-_2024_July/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/025_Wasabi_2_-_2024_July/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/025_Wasabi_2_-_2024_July/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/025_Wasabi_2_(All_coordinators)_-_2024_July/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/025_Wasabi_2_(All_coordinators)_-_2024_July/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 August</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 August</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/026_Wasabi_2_-_2024_August/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/026_Wasabi_2_-_2024_August/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/026_Wasabi_2_(All_coordinators)_-_2024_August/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/026_Wasabi_2_(All_coordinators)_-_2024_August/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/026_Wasabi_2_-_2024_August/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/026_Wasabi_2_-_2024_August/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/026_Wasabi_2_(All_coordinators)_-_2024_August/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/026_Wasabi_2_(All_coordinators)_-_2024_August/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/026_Wasabi_2_-_2024_August/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/026_Wasabi_2_-_2024_August/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/026_Wasabi_2_(All_coordinators)_-_2024_August/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/026_Wasabi_2_(All_coordinators)_-_2024_August/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/026_Wasabi_2_-_2024_August/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/026_Wasabi_2_-_2024_August/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/026_Wasabi_2_(All_coordinators)_-_2024_August/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/026_Wasabi_2_(All_coordinators)_-_2024_August/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 September</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 September</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/027_Wasabi_2_-_2024_September/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/027_Wasabi_2_-_2024_September/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/027_Wasabi_2_(All_coordinators)_-_2024_September/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/027_Wasabi_2_(All_coordinators)_-_2024_September/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/027_Wasabi_2_-_2024_September/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/027_Wasabi_2_-_2024_September/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/027_Wasabi_2_(All_coordinators)_-_2024_September/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/027_Wasabi_2_(All_coordinators)_-_2024_September/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/027_Wasabi_2_-_2024_September/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/027_Wasabi_2_-_2024_September/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/027_Wasabi_2_(All_coordinators)_-_2024_September/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/027_Wasabi_2_(All_coordinators)_-_2024_September/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/027_Wasabi_2_-_2024_September/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/027_Wasabi_2_-_2024_September/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/027_Wasabi_2_(All_coordinators)_-_2024_September/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/027_Wasabi_2_(All_coordinators)_-_2024_September/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 October</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 October</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/028_Wasabi_2_-_2024_October/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/028_Wasabi_2_-_2024_October/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/028_Wasabi_2_(All_coordinators)_-_2024_October/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/028_Wasabi_2_(All_coordinators)_-_2024_October/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/028_Wasabi_2_-_2024_October/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/028_Wasabi_2_-_2024_October/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/028_Wasabi_2_(All_coordinators)_-_2024_October/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/028_Wasabi_2_(All_coordinators)_-_2024_October/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/028_Wasabi_2_-_2024_October/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/028_Wasabi_2_-_2024_October/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/028_Wasabi_2_(All_coordinators)_-_2024_October/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/028_Wasabi_2_(All_coordinators)_-_2024_October/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/028_Wasabi_2_-_2024_October/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/028_Wasabi_2_-_2024_October/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/028_Wasabi_2_(All_coordinators)_-_2024_October/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/028_Wasabi_2_(All_coordinators)_-_2024_October/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 November</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 November</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/029_Wasabi_2_-_2024_November/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/029_Wasabi_2_-_2024_November/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/029_Wasabi_2_(All_coordinators)_-_2024_November/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/029_Wasabi_2_(All_coordinators)_-_2024_November/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/029_Wasabi_2_-_2024_November/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/029_Wasabi_2_-_2024_November/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/029_Wasabi_2_(All_coordinators)_-_2024_November/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/029_Wasabi_2_(All_coordinators)_-_2024_November/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/029_Wasabi_2_-_2024_November/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/029_Wasabi_2_-_2024_November/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/029_Wasabi_2_(All_coordinators)_-_2024_November/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/029_Wasabi_2_(All_coordinators)_-_2024_November/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/029_Wasabi_2_-_2024_November/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/029_Wasabi_2_-_2024_November/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/029_Wasabi_2_(All_coordinators)_-_2024_November/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/029_Wasabi_2_(All_coordinators)_-_2024_November/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2024 December</h2>
+    <h2>Wasabi 2 (All coordinators) - 2024 December</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/030_Wasabi_2_-_2024_December/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/030_Wasabi_2_-_2024_December/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/030_Wasabi_2_(All_coordinators)_-_2024_December/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/030_Wasabi_2_(All_coordinators)_-_2024_December/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/030_Wasabi_2_-_2024_December/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/030_Wasabi_2_-_2024_December/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/030_Wasabi_2_(All_coordinators)_-_2024_December/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/030_Wasabi_2_(All_coordinators)_-_2024_December/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/030_Wasabi_2_-_2024_December/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/030_Wasabi_2_-_2024_December/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/030_Wasabi_2_(All_coordinators)_-_2024_December/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/030_Wasabi_2_(All_coordinators)_-_2024_December/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/030_Wasabi_2_-_2024_December/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/030_Wasabi_2_-_2024_December/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/030_Wasabi_2_(All_coordinators)_-_2024_December/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/030_Wasabi_2_(All_coordinators)_-_2024_December/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2025 January</h2>
+    <h2>Wasabi 2 (All coordinators) - 2025 January</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/031_Wasabi_2_-_2025_January/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/031_Wasabi_2_-_2025_January/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/031_Wasabi_2_(All_coordinators)_-_2025_January/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/031_Wasabi_2_(All_coordinators)_-_2025_January/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/031_Wasabi_2_-_2025_January/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/031_Wasabi_2_-_2025_January/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/031_Wasabi_2_(All_coordinators)_-_2025_January/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/031_Wasabi_2_(All_coordinators)_-_2025_January/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/031_Wasabi_2_-_2025_January/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/031_Wasabi_2_-_2025_January/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/031_Wasabi_2_(All_coordinators)_-_2025_January/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/031_Wasabi_2_(All_coordinators)_-_2025_January/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/031_Wasabi_2_-_2025_January/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/031_Wasabi_2_-_2025_January/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/031_Wasabi_2_(All_coordinators)_-_2025_January/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/031_Wasabi_2_(All_coordinators)_-_2025_January/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2025 February</h2>
+    <h2>Wasabi 2 (All coordinators) - 2025 February</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/032_Wasabi_2_-_2025_February/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/032_Wasabi_2_-_2025_February/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/032_Wasabi_2_(All_coordinators)_-_2025_February/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/032_Wasabi_2_(All_coordinators)_-_2025_February/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/032_Wasabi_2_-_2025_February/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/032_Wasabi_2_-_2025_February/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/032_Wasabi_2_(All_coordinators)_-_2025_February/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/032_Wasabi_2_(All_coordinators)_-_2025_February/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/032_Wasabi_2_-_2025_February/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/032_Wasabi_2_-_2025_February/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/032_Wasabi_2_(All_coordinators)_-_2025_February/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/032_Wasabi_2_(All_coordinators)_-_2025_February/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/032_Wasabi_2_-_2025_February/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/032_Wasabi_2_-_2025_February/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/032_Wasabi_2_(All_coordinators)_-_2025_February/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/032_Wasabi_2_(All_coordinators)_-_2025_February/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2025 March</h2>
+    <h2>Wasabi 2 (All coordinators) - 2025 March</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/033_Wasabi_2_-_2025_March/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/033_Wasabi_2_-_2025_March/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/033_Wasabi_2_(All_coordinators)_-_2025_March/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/033_Wasabi_2_(All_coordinators)_-_2025_March/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/033_Wasabi_2_-_2025_March/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/033_Wasabi_2_-_2025_March/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/033_Wasabi_2_(All_coordinators)_-_2025_March/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/033_Wasabi_2_(All_coordinators)_-_2025_March/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/033_Wasabi_2_-_2025_March/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/033_Wasabi_2_-_2025_March/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/033_Wasabi_2_(All_coordinators)_-_2025_March/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/033_Wasabi_2_(All_coordinators)_-_2025_March/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/033_Wasabi_2_-_2025_March/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/033_Wasabi_2_-_2025_March/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/033_Wasabi_2_(All_coordinators)_-_2025_March/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/033_Wasabi_2_(All_coordinators)_-_2025_March/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2025 April</h2>
+    <h2>Wasabi 2 (All coordinators) - 2025 April</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/034_Wasabi_2_-_2025_April/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/034_Wasabi_2_-_2025_April/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/034_Wasabi_2_(All_coordinators)_-_2025_April/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/034_Wasabi_2_(All_coordinators)_-_2025_April/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/034_Wasabi_2_-_2025_April/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/034_Wasabi_2_-_2025_April/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/034_Wasabi_2_(All_coordinators)_-_2025_April/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/034_Wasabi_2_(All_coordinators)_-_2025_April/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/034_Wasabi_2_-_2025_April/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/034_Wasabi_2_-_2025_April/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/034_Wasabi_2_(All_coordinators)_-_2025_April/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/034_Wasabi_2_(All_coordinators)_-_2025_April/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/034_Wasabi_2_-_2025_April/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/034_Wasabi_2_-_2025_April/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/034_Wasabi_2_(All_coordinators)_-_2025_April/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/034_Wasabi_2_(All_coordinators)_-_2025_April/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
-    <h2>Wasabi 2 - 2025 May</h2>
+    <h2>Wasabi 2 (All coordinators) - 2025 May</h2>
 
     <div class="container">   
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/035_Wasabi_2_(All_coordinators)_-_2025_May/wasabi2_input_types_values_notnorm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_(All_coordinators)_-_2025_May/wasabi2_input_types_values_notnorm.png" alt="wasabi2_input_types_values_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
+        <img src="./thumbnails/wasabi2/all/035_Wasabi_2_(All_coordinators)_-_2025_May/wasabi2_input_types_nums_notnorm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_(All_coordinators)_-_2025_May/wasabi2_input_types_nums_notnorm.png" alt="wasabi2_input_types_nums_notnorm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
+        <img src="./thumbnails/wasabi2/all/035_Wasabi_2_(All_coordinators)_-_2025_May/wasabi2_input_types_values_norm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_(All_coordinators)_-_2025_May/wasabi2_input_types_values_norm.png" alt="wasabi2_input_types_values_norm.png" />
         </div>
    
         <div class="grid-item">
-        <img src="./thumbnails/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_-_2025_May/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
+        <img src="./thumbnails/wasabi2/all/035_Wasabi_2_(All_coordinators)_-_2025_May/wasabi2_input_types_nums_norm.png" data-full="./figures/wasabi2/all/035_Wasabi_2_(All_coordinators)_-_2025_May/wasabi2_input_types_nums_norm.png" alt="wasabi2_input_types_nums_norm.png" />
         </div>
     </div>
 
@@ -712,6 +712,9 @@ const contentMap = {
         Your browser does not support iframes.
     </iframe>
     <iframe src="./flows/coordinator_flows_values_.html">
+        Your browser does not support iframes.
+    </iframe>
+    <iframe src="./flows/coordinator_flows_values_incl_zksnacks.html">
         Your browser does not support iframes.
     </iframe>
 `,
