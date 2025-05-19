@@ -19,8 +19,36 @@
                     "name": "kruw.io"
                 },
                 {
+                    "dir": "opencoordinator",
+                    "name": "opencoordinator.io"
+                },
+                {
+                    "dir": "gingerwallet",
+                    "name": "gingerwallet.io"
+                },
+                {
                     "dir": "btip",
                     "name": "btip.nl"
+                },
+                {
+                    "dir": "coinjoinnl",
+                    "name": "coinjoin.nl"
+                },
+                {
+                    "dir": "dragonordnance",
+                    "name": "dragonordnance.com"
+                },
+                {
+                    "dir": "mega",
+                    "name": "mega.cash"
+                },
+                {
+                    "dir": "wasabicoordinator",
+                    "name": "wasabicoordinator.io"
+                },
+                {
+                    "dir": "wasabist",
+                    "name": "wasabist.io"
                 }
             ]
         },

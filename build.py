@@ -47,6 +47,7 @@ def get_header(structure, current_page):
 {get_selector(structure["pages"][current_page]["coordinators"]) if "coordinators" in structure["pages"][current_page] else ""}
 
       </header>
+  <img src="legend.png" alt="legend" id="legend" />
   <div id="containers">
   """
   return header

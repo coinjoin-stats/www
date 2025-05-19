@@ -203,3 +203,10 @@ h3 {
 #lightbox .arrow.right {
   right: 20px;
 }
+
+#legend {
+  position: fixed;
+  top: 35dvh;
+  right: 20px;
+  width: 12%;
+}
