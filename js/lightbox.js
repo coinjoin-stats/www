@@ -21,6 +21,26 @@ document.addEventListener("DOMContentLoaded", function () {
     lightboxImg.src = images[currentIndex].dataset.full;
   }
 
+  function getFilename(path) {
+    return path.split('/').pop();
+  }
+
+  function showNextSameFilename(direction) {
+    const currentFilename = getFilename(images[currentIndex].dataset.full);
+    let i = currentIndex + direction;
+
+    while (i >= 0 && i < images.length) {
+      const candidateFilename = getFilename(images[i].dataset.full);
+      if (candidateFilename === currentFilename) {
+        currentIndex = i;
+        lightboxImg.src = images[currentIndex].dataset.full;
+        return;
+      }
+      i += direction;
+    }
+    // Optional: beep, flash, or do nothing if no match
+  }
+
   function showPrevImage() {
     if (images.length === 0) return;
     currentIndex = (currentIndex - 1 + images.length) % images.length;
@@ -51,6 +71,9 @@ document.addEventListener("DOMContentLoaded", function () {
       if (e.key === "ArrowRight") showNextImage();
       if (e.key === "ArrowLeft") showPrevImage();
       if (e.key === "Escape") lightbox.style.display = "none";
+
+      if (e.key.toLowerCase() === "d") showNextSameFilename(1);
+      if (e.key.toLowerCase() === "a") showNextSameFilename(-1);
     }
   });
 });
