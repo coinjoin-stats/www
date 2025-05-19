@@ -55,9 +55,11 @@ def get_header(structure, current_page):
 def get_footer(script=None):
   footer = """
     </div>
-    <div id="lightbox" class="lightbox">
+    <div id="lightbox">
       <span class="close">&times;</span>
-      <img class="lightbox-img" id="lightbox-img" src="" alt="Full-size image" />
+      <span class="arrow left">&#10094;</span>
+      <img id="lightbox-img" src="" alt="">
+      <span class="arrow right">&#10095;</span>
     </div>
     
     <script src="./js/lightbox.js"></script>
