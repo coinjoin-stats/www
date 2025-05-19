@@ -28,11 +28,12 @@ def copy_and_resize_images(src_dir, dst_dir, scale=0.5, overwrite=False):
             dst_file_path = os.path.join(target_root, file)
 
             if is_image_file(file) and (overwrite or not os.path.isfile(dst_file_path)):
-                src_mtime = os.path.getmtime(src_file_path)
-                dst_mtime = os.path.getmtime(dst_file_path)
-                if dst_mtime >= src_mtime:
-                    print(f"Skipped (already resized): {dst_file_path}")
-                    continue
+                if os.path.exists(dst_file_path):
+                    src_mtime = os.path.getmtime(src_file_path)
+                    dst_mtime = os.path.getmtime(dst_file_path)
+                    if dst_mtime >= src_mtime:
+                        print(f"Skipped (already resized): {dst_file_path}")
+                        continue
                 try:
                     resize_image(src_file_path, dst_file_path, scale)
                     print(f"Resized: {dst_file_path}")
