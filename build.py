@@ -63,7 +63,7 @@ def get_footer(script=None):
       <span class="arrow right">&#10095;</span>
     </div>
     
-    <script src="./js/lightbox.js"></script>
+    <script src="./js/lightbox.js?v1"></script>
   """
   if script is not None:
        footer += f'    <script src="./js/{script}.js?v1"></script>\n'
@@ -140,7 +140,7 @@ const contentMap = {{
   select.addEventListener("change", updateContent);
 }});"""
     
-    with open("./js/"+script_name + ".js?v1", "w") as file:
+    with open("./js/"+script_name + ".js", "w") as file:
         file.write(script)
 
 
