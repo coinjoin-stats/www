@@ -39,6 +39,6 @@ def copy_and_resize_images(src_dir, dst_dir, scale=0.5, overwrite=False):
 source_directory = "./figures/"
 destination_directory = "./thumbnails/"
 scale_factor = 0.15
-o=False
+o=True
 
 copy_and_resize_images(source_directory, destination_directory, scale=scale_factor, overwrite=o)
