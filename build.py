@@ -24,7 +24,7 @@ def get_header(structure, current_page):
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>CoinJoin Statistics</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v1" />
   </head>
   <body>
       <header>
@@ -66,7 +66,7 @@ def get_footer(script=None):
     <script src="./js/lightbox.js"></script>
   """
   if script is not None:
-       footer += f'    <script src="./js/{script}.js"></script>\n'
+       footer += f'    <script src="./js/{script}.js?v1"></script>\n'
   footer+="""
   </body>
   </html>
@@ -140,7 +140,7 @@ const contentMap = {{
   select.addEventListener("change", updateContent);
 }});"""
     
-    with open("./js/"+script_name + ".js", "w") as file:
+    with open("./js/"+script_name + ".js?v1", "w") as file:
         file.write(script)
 
 
