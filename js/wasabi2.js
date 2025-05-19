@@ -4,7 +4,24 @@ const select = document.getElementById("category");
 const container = document.getElementById("containers");
 
 const contentMap = {
-    all: `    <h2>Wasabi 2 (All coordinators) - 2022 June</h2>
+    all: `    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/all/wasabi2_cummul_nums_norm.png" data-full="./figures/wasabi2/all/wasabi2_cummul_nums_norm.png" alt="wasabi2_cummul_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/all/wasabi2_cummul_values_norm.png" data-full="./figures/wasabi2/all/wasabi2_cummul_values_norm.png" alt="wasabi2_cummul_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/all/wasabi2_cummul_nums_notnorm.png" data-full="./figures/wasabi2/all/wasabi2_cummul_nums_notnorm.png" alt="wasabi2_cummul_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/all/wasabi2_cummul_values_notnorm.png" data-full="./figures/wasabi2/all/wasabi2_cummul_values_notnorm.png" alt="wasabi2_cummul_values_notnorm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 (All coordinators) - 2022 June</h2>
 
     <div class="container">   
         <div class="grid-item">
@@ -1230,6 +1247,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/kruw/000_Wasabi_2_-_kruw.io_-_2024_May/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/000_Wasabi_2_-_kruw.io_-_2024_May/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 kruw.io - 2024 May</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/000_Wasabi_2_kruw.io_-_2024_May/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/000_Wasabi_2_kruw.io_-_2024_May/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/000_Wasabi_2_kruw.io_-_2024_May/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/000_Wasabi_2_kruw.io_-_2024_May/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/000_Wasabi_2_kruw.io_-_2024_May/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/000_Wasabi_2_kruw.io_-_2024_May/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/000_Wasabi_2_kruw.io_-_2024_May/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/000_Wasabi_2_kruw.io_-_2024_May/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - kruw.io - 2024 June</h2>
 
     <div class="container">   
@@ -1247,6 +1283,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/kruw/001_Wasabi_2_-_kruw.io_-_2024_June/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/001_Wasabi_2_-_kruw.io_-_2024_June/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 kruw.io - 2024 June</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/001_Wasabi_2_kruw.io_-_2024_June/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/001_Wasabi_2_kruw.io_-_2024_June/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/001_Wasabi_2_kruw.io_-_2024_June/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/001_Wasabi_2_kruw.io_-_2024_June/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/001_Wasabi_2_kruw.io_-_2024_June/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/001_Wasabi_2_kruw.io_-_2024_June/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/001_Wasabi_2_kruw.io_-_2024_June/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/001_Wasabi_2_kruw.io_-_2024_June/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - kruw.io - 2024 July</h2>
@@ -1268,6 +1323,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/kruw/002_Wasabi_2_-_kruw.io_-_2024_July/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/002_Wasabi_2_-_kruw.io_-_2024_July/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 kruw.io - 2024 July</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/002_Wasabi_2_kruw.io_-_2024_July/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/002_Wasabi_2_kruw.io_-_2024_July/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/002_Wasabi_2_kruw.io_-_2024_July/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/002_Wasabi_2_kruw.io_-_2024_July/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/002_Wasabi_2_kruw.io_-_2024_July/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/002_Wasabi_2_kruw.io_-_2024_July/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/002_Wasabi_2_kruw.io_-_2024_July/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/002_Wasabi_2_kruw.io_-_2024_July/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - kruw.io - 2024 August</h2>
 
     <div class="container">   
@@ -1285,6 +1359,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/kruw/003_Wasabi_2_-_kruw.io_-_2024_August/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/003_Wasabi_2_-_kruw.io_-_2024_August/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 kruw.io - 2024 August</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/003_Wasabi_2_kruw.io_-_2024_August/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/003_Wasabi_2_kruw.io_-_2024_August/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/003_Wasabi_2_kruw.io_-_2024_August/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/003_Wasabi_2_kruw.io_-_2024_August/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/003_Wasabi_2_kruw.io_-_2024_August/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/003_Wasabi_2_kruw.io_-_2024_August/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/003_Wasabi_2_kruw.io_-_2024_August/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/003_Wasabi_2_kruw.io_-_2024_August/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - kruw.io - 2024 September</h2>
@@ -1306,6 +1399,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/kruw/004_Wasabi_2_-_kruw.io_-_2024_September/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/004_Wasabi_2_-_kruw.io_-_2024_September/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 kruw.io - 2024 September</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/004_Wasabi_2_kruw.io_-_2024_September/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/004_Wasabi_2_kruw.io_-_2024_September/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/004_Wasabi_2_kruw.io_-_2024_September/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/004_Wasabi_2_kruw.io_-_2024_September/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/004_Wasabi_2_kruw.io_-_2024_September/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/004_Wasabi_2_kruw.io_-_2024_September/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/004_Wasabi_2_kruw.io_-_2024_September/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/004_Wasabi_2_kruw.io_-_2024_September/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - kruw.io - 2024 October</h2>
 
     <div class="container">   
@@ -1323,6 +1435,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/kruw/005_Wasabi_2_-_kruw.io_-_2024_October/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/005_Wasabi_2_-_kruw.io_-_2024_October/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 kruw.io - 2024 October</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/005_Wasabi_2_kruw.io_-_2024_October/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/005_Wasabi_2_kruw.io_-_2024_October/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/005_Wasabi_2_kruw.io_-_2024_October/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/005_Wasabi_2_kruw.io_-_2024_October/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/005_Wasabi_2_kruw.io_-_2024_October/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/005_Wasabi_2_kruw.io_-_2024_October/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/005_Wasabi_2_kruw.io_-_2024_October/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/005_Wasabi_2_kruw.io_-_2024_October/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - kruw.io - 2024 November</h2>
@@ -1344,6 +1475,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/kruw/006_Wasabi_2_-_kruw.io_-_2024_November/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/006_Wasabi_2_-_kruw.io_-_2024_November/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 kruw.io - 2024 November</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/006_Wasabi_2_kruw.io_-_2024_November/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/006_Wasabi_2_kruw.io_-_2024_November/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/006_Wasabi_2_kruw.io_-_2024_November/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/006_Wasabi_2_kruw.io_-_2024_November/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/006_Wasabi_2_kruw.io_-_2024_November/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/006_Wasabi_2_kruw.io_-_2024_November/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/006_Wasabi_2_kruw.io_-_2024_November/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/006_Wasabi_2_kruw.io_-_2024_November/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - kruw.io - 2024 December</h2>
 
     <div class="container">   
@@ -1361,6 +1511,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/kruw/007_Wasabi_2_-_kruw.io_-_2024_December/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/007_Wasabi_2_-_kruw.io_-_2024_December/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 kruw.io - 2024 December</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/007_Wasabi_2_kruw.io_-_2024_December/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/007_Wasabi_2_kruw.io_-_2024_December/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/007_Wasabi_2_kruw.io_-_2024_December/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/007_Wasabi_2_kruw.io_-_2024_December/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/007_Wasabi_2_kruw.io_-_2024_December/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/007_Wasabi_2_kruw.io_-_2024_December/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/007_Wasabi_2_kruw.io_-_2024_December/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/007_Wasabi_2_kruw.io_-_2024_December/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - kruw.io - 2025 January</h2>
@@ -1382,6 +1551,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/kruw/008_Wasabi_2_-_kruw.io_-_2025_January/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/008_Wasabi_2_-_kruw.io_-_2025_January/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 kruw.io - 2025 January</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/008_Wasabi_2_kruw.io_-_2025_January/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/008_Wasabi_2_kruw.io_-_2025_January/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/008_Wasabi_2_kruw.io_-_2025_January/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/008_Wasabi_2_kruw.io_-_2025_January/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/008_Wasabi_2_kruw.io_-_2025_January/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/008_Wasabi_2_kruw.io_-_2025_January/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/008_Wasabi_2_kruw.io_-_2025_January/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/008_Wasabi_2_kruw.io_-_2025_January/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - kruw.io - 2025 February</h2>
 
     <div class="container">   
@@ -1399,6 +1587,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/kruw/009_Wasabi_2_-_kruw.io_-_2025_February/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/009_Wasabi_2_-_kruw.io_-_2025_February/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 kruw.io - 2025 February</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/009_Wasabi_2_kruw.io_-_2025_February/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/009_Wasabi_2_kruw.io_-_2025_February/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/009_Wasabi_2_kruw.io_-_2025_February/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/009_Wasabi_2_kruw.io_-_2025_February/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/009_Wasabi_2_kruw.io_-_2025_February/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/009_Wasabi_2_kruw.io_-_2025_February/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/009_Wasabi_2_kruw.io_-_2025_February/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/009_Wasabi_2_kruw.io_-_2025_February/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - kruw.io - 2025 March</h2>
@@ -1420,6 +1627,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/kruw/010_Wasabi_2_-_kruw.io_-_2025_March/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/010_Wasabi_2_-_kruw.io_-_2025_March/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 kruw.io - 2025 March</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/010_Wasabi_2_kruw.io_-_2025_March/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/010_Wasabi_2_kruw.io_-_2025_March/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/010_Wasabi_2_kruw.io_-_2025_March/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/010_Wasabi_2_kruw.io_-_2025_March/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/010_Wasabi_2_kruw.io_-_2025_March/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/010_Wasabi_2_kruw.io_-_2025_March/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/010_Wasabi_2_kruw.io_-_2025_March/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/010_Wasabi_2_kruw.io_-_2025_March/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - kruw.io - 2025 April</h2>
 
     <div class="container">   
@@ -1437,6 +1663,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/kruw/011_Wasabi_2_-_kruw.io_-_2025_April/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/011_Wasabi_2_-_kruw.io_-_2025_April/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 kruw.io - 2025 April</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/011_Wasabi_2_kruw.io_-_2025_April/wasabi2_kruw_input_types_nums_notnorm.png" data-full="./figures/wasabi2/kruw/011_Wasabi_2_kruw.io_-_2025_April/wasabi2_kruw_input_types_nums_notnorm.png" alt="wasabi2_kruw_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/011_Wasabi_2_kruw.io_-_2025_April/wasabi2_kruw_input_types_values_notnorm.png" data-full="./figures/wasabi2/kruw/011_Wasabi_2_kruw.io_-_2025_April/wasabi2_kruw_input_types_values_notnorm.png" alt="wasabi2_kruw_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/011_Wasabi_2_kruw.io_-_2025_April/wasabi2_kruw_input_types_values_norm.png" data-full="./figures/wasabi2/kruw/011_Wasabi_2_kruw.io_-_2025_April/wasabi2_kruw_input_types_values_norm.png" alt="wasabi2_kruw_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/kruw/011_Wasabi_2_kruw.io_-_2025_April/wasabi2_kruw_input_types_nums_norm.png" data-full="./figures/wasabi2/kruw/011_Wasabi_2_kruw.io_-_2025_April/wasabi2_kruw_input_types_nums_norm.png" alt="wasabi2_kruw_input_types_nums_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - kruw.io - 2025 May</h2>
@@ -1495,6 +1740,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/opencoordinator/000_Wasabi_2_-_opencoordinator.org_-_2024_May/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/000_Wasabi_2_-_opencoordinator.org_-_2024_May/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 opencoordinator.io - 2024 May</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/000_Wasabi_2_opencoordinator.io_-_2024_May/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/000_Wasabi_2_opencoordinator.io_-_2024_May/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/000_Wasabi_2_opencoordinator.io_-_2024_May/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/000_Wasabi_2_opencoordinator.io_-_2024_May/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/000_Wasabi_2_opencoordinator.io_-_2024_May/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/000_Wasabi_2_opencoordinator.io_-_2024_May/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/000_Wasabi_2_opencoordinator.io_-_2024_May/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/000_Wasabi_2_opencoordinator.io_-_2024_May/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - opencoordinator.org - 2024 June</h2>
 
     <div class="container">   
@@ -1512,6 +1776,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/opencoordinator/001_Wasabi_2_-_opencoordinator.org_-_2024_June/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/001_Wasabi_2_-_opencoordinator.org_-_2024_June/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 opencoordinator.io - 2024 June</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/001_Wasabi_2_opencoordinator.io_-_2024_June/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/001_Wasabi_2_opencoordinator.io_-_2024_June/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/001_Wasabi_2_opencoordinator.io_-_2024_June/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/001_Wasabi_2_opencoordinator.io_-_2024_June/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/001_Wasabi_2_opencoordinator.io_-_2024_June/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/001_Wasabi_2_opencoordinator.io_-_2024_June/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/001_Wasabi_2_opencoordinator.io_-_2024_June/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/001_Wasabi_2_opencoordinator.io_-_2024_June/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - opencoordinator.org - 2024 July</h2>
@@ -1533,6 +1816,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/opencoordinator/002_Wasabi_2_-_opencoordinator.org_-_2024_July/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/002_Wasabi_2_-_opencoordinator.org_-_2024_July/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 opencoordinator.io - 2024 July</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/002_Wasabi_2_opencoordinator.io_-_2024_July/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/002_Wasabi_2_opencoordinator.io_-_2024_July/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/002_Wasabi_2_opencoordinator.io_-_2024_July/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/002_Wasabi_2_opencoordinator.io_-_2024_July/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/002_Wasabi_2_opencoordinator.io_-_2024_July/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/002_Wasabi_2_opencoordinator.io_-_2024_July/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/002_Wasabi_2_opencoordinator.io_-_2024_July/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/002_Wasabi_2_opencoordinator.io_-_2024_July/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - opencoordinator.org - 2024 August</h2>
 
     <div class="container">   
@@ -1550,6 +1852,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/opencoordinator/003_Wasabi_2_-_opencoordinator.org_-_2024_August/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/003_Wasabi_2_-_opencoordinator.org_-_2024_August/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 opencoordinator.io - 2024 August</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/003_Wasabi_2_opencoordinator.io_-_2024_August/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/003_Wasabi_2_opencoordinator.io_-_2024_August/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/003_Wasabi_2_opencoordinator.io_-_2024_August/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/003_Wasabi_2_opencoordinator.io_-_2024_August/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/003_Wasabi_2_opencoordinator.io_-_2024_August/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/003_Wasabi_2_opencoordinator.io_-_2024_August/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/003_Wasabi_2_opencoordinator.io_-_2024_August/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/003_Wasabi_2_opencoordinator.io_-_2024_August/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - opencoordinator.org - 2024 September</h2>
@@ -1571,6 +1892,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/opencoordinator/004_Wasabi_2_-_opencoordinator.org_-_2024_September/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/004_Wasabi_2_-_opencoordinator.org_-_2024_September/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 opencoordinator.io - 2024 September</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/004_Wasabi_2_opencoordinator.io_-_2024_September/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/004_Wasabi_2_opencoordinator.io_-_2024_September/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/004_Wasabi_2_opencoordinator.io_-_2024_September/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/004_Wasabi_2_opencoordinator.io_-_2024_September/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/004_Wasabi_2_opencoordinator.io_-_2024_September/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/004_Wasabi_2_opencoordinator.io_-_2024_September/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/004_Wasabi_2_opencoordinator.io_-_2024_September/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/004_Wasabi_2_opencoordinator.io_-_2024_September/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - opencoordinator.org - 2024 October</h2>
 
     <div class="container">   
@@ -1588,6 +1928,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/opencoordinator/005_Wasabi_2_-_opencoordinator.org_-_2024_October/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/005_Wasabi_2_-_opencoordinator.org_-_2024_October/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 opencoordinator.io - 2024 October</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/005_Wasabi_2_opencoordinator.io_-_2024_October/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/005_Wasabi_2_opencoordinator.io_-_2024_October/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/005_Wasabi_2_opencoordinator.io_-_2024_October/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/005_Wasabi_2_opencoordinator.io_-_2024_October/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/005_Wasabi_2_opencoordinator.io_-_2024_October/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/005_Wasabi_2_opencoordinator.io_-_2024_October/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/005_Wasabi_2_opencoordinator.io_-_2024_October/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/005_Wasabi_2_opencoordinator.io_-_2024_October/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - opencoordinator.org - 2024 November</h2>
@@ -1609,6 +1968,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/opencoordinator/006_Wasabi_2_-_opencoordinator.org_-_2024_November/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/006_Wasabi_2_-_opencoordinator.org_-_2024_November/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 opencoordinator.io - 2024 November</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/006_Wasabi_2_opencoordinator.io_-_2024_November/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/006_Wasabi_2_opencoordinator.io_-_2024_November/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/006_Wasabi_2_opencoordinator.io_-_2024_November/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/006_Wasabi_2_opencoordinator.io_-_2024_November/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/006_Wasabi_2_opencoordinator.io_-_2024_November/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/006_Wasabi_2_opencoordinator.io_-_2024_November/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/006_Wasabi_2_opencoordinator.io_-_2024_November/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/006_Wasabi_2_opencoordinator.io_-_2024_November/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - opencoordinator.org - 2024 December</h2>
 
     <div class="container">   
@@ -1626,6 +2004,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/opencoordinator/007_Wasabi_2_-_opencoordinator.org_-_2024_December/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/007_Wasabi_2_-_opencoordinator.org_-_2024_December/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 opencoordinator.io - 2024 December</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/007_Wasabi_2_opencoordinator.io_-_2024_December/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/007_Wasabi_2_opencoordinator.io_-_2024_December/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/007_Wasabi_2_opencoordinator.io_-_2024_December/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/007_Wasabi_2_opencoordinator.io_-_2024_December/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/007_Wasabi_2_opencoordinator.io_-_2024_December/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/007_Wasabi_2_opencoordinator.io_-_2024_December/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/007_Wasabi_2_opencoordinator.io_-_2024_December/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/007_Wasabi_2_opencoordinator.io_-_2024_December/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - opencoordinator.org - 2025 January</h2>
@@ -1647,6 +2044,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/opencoordinator/008_Wasabi_2_-_opencoordinator.org_-_2025_January/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/008_Wasabi_2_-_opencoordinator.org_-_2025_January/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 opencoordinator.io - 2025 January</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/008_Wasabi_2_opencoordinator.io_-_2025_January/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/008_Wasabi_2_opencoordinator.io_-_2025_January/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/008_Wasabi_2_opencoordinator.io_-_2025_January/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/008_Wasabi_2_opencoordinator.io_-_2025_January/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/008_Wasabi_2_opencoordinator.io_-_2025_January/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/008_Wasabi_2_opencoordinator.io_-_2025_January/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/008_Wasabi_2_opencoordinator.io_-_2025_January/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/008_Wasabi_2_opencoordinator.io_-_2025_January/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - opencoordinator.org - 2025 February</h2>
 
     <div class="container">   
@@ -1664,6 +2080,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/opencoordinator/009_Wasabi_2_-_opencoordinator.org_-_2025_February/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/009_Wasabi_2_-_opencoordinator.org_-_2025_February/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 opencoordinator.io - 2025 February</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/009_Wasabi_2_opencoordinator.io_-_2025_February/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/009_Wasabi_2_opencoordinator.io_-_2025_February/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/009_Wasabi_2_opencoordinator.io_-_2025_February/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/009_Wasabi_2_opencoordinator.io_-_2025_February/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/009_Wasabi_2_opencoordinator.io_-_2025_February/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/009_Wasabi_2_opencoordinator.io_-_2025_February/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/009_Wasabi_2_opencoordinator.io_-_2025_February/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/009_Wasabi_2_opencoordinator.io_-_2025_February/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - opencoordinator.org - 2025 March</h2>
@@ -1685,6 +2120,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/opencoordinator/010_Wasabi_2_-_opencoordinator.org_-_2025_March/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/010_Wasabi_2_-_opencoordinator.org_-_2025_March/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 opencoordinator.io - 2025 March</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/010_Wasabi_2_opencoordinator.io_-_2025_March/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/010_Wasabi_2_opencoordinator.io_-_2025_March/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/010_Wasabi_2_opencoordinator.io_-_2025_March/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/010_Wasabi_2_opencoordinator.io_-_2025_March/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/010_Wasabi_2_opencoordinator.io_-_2025_March/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/010_Wasabi_2_opencoordinator.io_-_2025_March/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/010_Wasabi_2_opencoordinator.io_-_2025_March/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/010_Wasabi_2_opencoordinator.io_-_2025_March/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - opencoordinator.org - 2025 April</h2>
 
     <div class="container">   
@@ -1702,6 +2156,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/opencoordinator/011_Wasabi_2_-_opencoordinator.org_-_2025_April/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/011_Wasabi_2_-_opencoordinator.org_-_2025_April/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 opencoordinator.io - 2025 April</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/011_Wasabi_2_opencoordinator.io_-_2025_April/wasabi2_opencoordinator_input_types_nums_notnorm.png" data-full="./figures/wasabi2/opencoordinator/011_Wasabi_2_opencoordinator.io_-_2025_April/wasabi2_opencoordinator_input_types_nums_notnorm.png" alt="wasabi2_opencoordinator_input_types_nums_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/011_Wasabi_2_opencoordinator.io_-_2025_April/wasabi2_opencoordinator_input_types_values_notnorm.png" data-full="./figures/wasabi2/opencoordinator/011_Wasabi_2_opencoordinator.io_-_2025_April/wasabi2_opencoordinator_input_types_values_notnorm.png" alt="wasabi2_opencoordinator_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/011_Wasabi_2_opencoordinator.io_-_2025_April/wasabi2_opencoordinator_input_types_nums_norm.png" data-full="./figures/wasabi2/opencoordinator/011_Wasabi_2_opencoordinator.io_-_2025_April/wasabi2_opencoordinator_input_types_nums_norm.png" alt="wasabi2_opencoordinator_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/opencoordinator/011_Wasabi_2_opencoordinator.io_-_2025_April/wasabi2_opencoordinator_input_types_values_norm.png" data-full="./figures/wasabi2/opencoordinator/011_Wasabi_2_opencoordinator.io_-_2025_April/wasabi2_opencoordinator_input_types_values_norm.png" alt="wasabi2_opencoordinator_input_types_values_norm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - opencoordinator.org - 2025 May</h2>
@@ -1760,6 +2233,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/gingerwallet/000_Wasabi_2_-_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/000_Wasabi_2_-_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 gingerwallet.io - 2024 May</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/000_Wasabi_2_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/000_Wasabi_2_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/000_Wasabi_2_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/000_Wasabi_2_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/000_Wasabi_2_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/000_Wasabi_2_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/000_Wasabi_2_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/000_Wasabi_2_gingerwallet.io_-_2024_May/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - gingerwallet.io - 2024 June</h2>
 
     <div class="container">   
@@ -1777,6 +2269,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/gingerwallet/001_Wasabi_2_-_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/001_Wasabi_2_-_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 gingerwallet.io - 2024 June</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/001_Wasabi_2_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/001_Wasabi_2_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/001_Wasabi_2_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/001_Wasabi_2_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/001_Wasabi_2_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/001_Wasabi_2_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/001_Wasabi_2_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/001_Wasabi_2_gingerwallet.io_-_2024_June/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - gingerwallet.io - 2024 July</h2>
@@ -1798,6 +2309,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/gingerwallet/002_Wasabi_2_-_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/002_Wasabi_2_-_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 gingerwallet.io - 2024 July</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/002_Wasabi_2_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/002_Wasabi_2_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/002_Wasabi_2_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/002_Wasabi_2_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/002_Wasabi_2_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/002_Wasabi_2_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/002_Wasabi_2_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/002_Wasabi_2_gingerwallet.io_-_2024_July/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - gingerwallet.io - 2024 August</h2>
 
     <div class="container">   
@@ -1815,6 +2345,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/gingerwallet/003_Wasabi_2_-_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/003_Wasabi_2_-_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 gingerwallet.io - 2024 August</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/003_Wasabi_2_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/003_Wasabi_2_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/003_Wasabi_2_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/003_Wasabi_2_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/003_Wasabi_2_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/003_Wasabi_2_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/003_Wasabi_2_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/003_Wasabi_2_gingerwallet.io_-_2024_August/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - gingerwallet.io - 2024 September</h2>
@@ -1836,6 +2385,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/gingerwallet/004_Wasabi_2_-_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/004_Wasabi_2_-_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 gingerwallet.io - 2024 September</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/004_Wasabi_2_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/004_Wasabi_2_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/004_Wasabi_2_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/004_Wasabi_2_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/004_Wasabi_2_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/004_Wasabi_2_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/004_Wasabi_2_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/004_Wasabi_2_gingerwallet.io_-_2024_September/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - gingerwallet.io - 2024 October</h2>
 
     <div class="container">   
@@ -1853,6 +2421,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/gingerwallet/005_Wasabi_2_-_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/005_Wasabi_2_-_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 gingerwallet.io - 2024 October</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/005_Wasabi_2_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/005_Wasabi_2_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/005_Wasabi_2_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/005_Wasabi_2_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/005_Wasabi_2_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/005_Wasabi_2_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/005_Wasabi_2_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/005_Wasabi_2_gingerwallet.io_-_2024_October/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - gingerwallet.io - 2024 November</h2>
@@ -1874,6 +2461,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/gingerwallet/006_Wasabi_2_-_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/006_Wasabi_2_-_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 gingerwallet.io - 2024 November</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/006_Wasabi_2_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/006_Wasabi_2_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/006_Wasabi_2_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/006_Wasabi_2_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/006_Wasabi_2_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/006_Wasabi_2_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/006_Wasabi_2_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/006_Wasabi_2_gingerwallet.io_-_2024_November/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - gingerwallet.io - 2024 December</h2>
 
     <div class="container">   
@@ -1891,6 +2497,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/gingerwallet/007_Wasabi_2_-_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/007_Wasabi_2_-_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 gingerwallet.io - 2024 December</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/007_Wasabi_2_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/007_Wasabi_2_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/007_Wasabi_2_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/007_Wasabi_2_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/007_Wasabi_2_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/007_Wasabi_2_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/007_Wasabi_2_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/007_Wasabi_2_gingerwallet.io_-_2024_December/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - gingerwallet.io - 2025 January</h2>
@@ -1912,6 +2537,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/gingerwallet/008_Wasabi_2_-_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/008_Wasabi_2_-_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 gingerwallet.io - 2025 January</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/008_Wasabi_2_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/008_Wasabi_2_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/008_Wasabi_2_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/008_Wasabi_2_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/008_Wasabi_2_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/008_Wasabi_2_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/008_Wasabi_2_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/008_Wasabi_2_gingerwallet.io_-_2025_January/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - gingerwallet.io - 2025 February</h2>
 
     <div class="container">   
@@ -1929,6 +2573,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/gingerwallet/009_Wasabi_2_-_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/009_Wasabi_2_-_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 gingerwallet.io - 2025 February</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/009_Wasabi_2_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/009_Wasabi_2_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/009_Wasabi_2_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/009_Wasabi_2_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/009_Wasabi_2_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/009_Wasabi_2_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/009_Wasabi_2_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/009_Wasabi_2_gingerwallet.io_-_2025_February/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - gingerwallet.io - 2025 March</h2>
@@ -1950,6 +2613,25 @@ const contentMap = {
         <img src="./thumbnails/wasabi2/gingerwallet/010_Wasabi_2_-_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/010_Wasabi_2_-_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
+    <h2>Wasabi 2 gingerwallet.io - 2025 March</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/010_Wasabi_2_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/010_Wasabi_2_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/010_Wasabi_2_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/010_Wasabi_2_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/010_Wasabi_2_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/010_Wasabi_2_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/010_Wasabi_2_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/010_Wasabi_2_gingerwallet.io_-_2025_March/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
     <h2>Wasabi 2 - gingerwallet.io - 2025 April</h2>
 
     <div class="container">   
@@ -1967,6 +2649,25 @@ const contentMap = {
    
         <div class="grid-item">
         <img src="./thumbnails/wasabi2/gingerwallet/011_Wasabi_2_-_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/011_Wasabi_2_-_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
+        </div>
+    </div>
+    <h2>Wasabi 2 gingerwallet.io - 2025 April</h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/011_Wasabi_2_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_values_notnorm.png" data-full="./figures/wasabi2/gingerwallet/011_Wasabi_2_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_values_notnorm.png" alt="wasabi2_gingerwallet_input_types_values_notnorm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/011_Wasabi_2_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_values_norm.png" data-full="./figures/wasabi2/gingerwallet/011_Wasabi_2_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_values_norm.png" alt="wasabi2_gingerwallet_input_types_values_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/011_Wasabi_2_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_nums_norm.png" data-full="./figures/wasabi2/gingerwallet/011_Wasabi_2_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_nums_norm.png" alt="wasabi2_gingerwallet_input_types_nums_norm.png" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="./thumbnails/wasabi2/gingerwallet/011_Wasabi_2_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_nums_notnorm.png" data-full="./figures/wasabi2/gingerwallet/011_Wasabi_2_gingerwallet.io_-_2025_April/wasabi2_gingerwallet_input_types_nums_notnorm.png" alt="wasabi2_gingerwallet_input_types_nums_notnorm.png" />
         </div>
     </div>
     <h2>Wasabi 2 - gingerwallet.io - 2025 May</h2>
