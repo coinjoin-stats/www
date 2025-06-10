@@ -53,7 +53,21 @@
             ]
         },
         "wasabi1":{
-            "name":"Wasabi 1"
+            "name":"Wasabi 1",
+            "coordinators": [
+                {
+                    "dir":"all",
+                    "name": "All coordinators"
+                },
+                {
+                    "dir": "zksnacks",
+                    "name": "zkSNACKs"
+                },
+                {
+                    "dir": "mystery",
+                    "name": "Mystery"
+                }
+            ]
         },
         "whirlpool":{
             "name":"Whirlpool"

@@ -125,7 +125,7 @@ const container = document.getElementById("containers");
 const contentMap = {{
 {(","+newline).join(['    '+c["dir"] + ': `' + 
                      traverse_directories(start_directory + "/" + c["dir"], 2)+ 
-                     (flows if c["dir"]=="all" else "") + '`'
+                     (flows if c["name"]== "Wasabi 2" and c["dir"]=="all" else "") + '`'
                      for c in coordinators])}
 }};
 
