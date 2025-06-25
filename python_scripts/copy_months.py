@@ -7,6 +7,14 @@ import sys
 # Regex pattern to extract a date like "2022-06-01 00-00-00"
 date_pattern = re.compile(r'(\d{4})-(\d{2})-\d{2} \d{2}-\d{2}-\d{2}')
 
+image_whitelist = ["input_types_nums_notnorm.png", "input_types_nums_norm.png", "input_types_values_norm.png", "input_types_values_notnorm.png"]
+
+def is_whitelisted(name):
+    for w in image_whitelist:
+        if w == name[-len(w):]:
+            return True
+    return False
+
 def extract_month_year(folder_name):
     match = date_pattern.search(folder_name)
     if match:
@@ -19,6 +27,8 @@ def extract_month_year(folder_name):
 def copy_png_files(src_subdir, dest_subdir):
     os.makedirs(dest_subdir, exist_ok=True)
     for file_name in os.listdir(src_subdir):
+        if not is_whitelisted(file_name):
+            continue
         if file_name.lower().endswith('.png'):
             src_file = os.path.join(src_subdir, file_name)
             dst_file = os.path.join(dest_subdir, file_name)
