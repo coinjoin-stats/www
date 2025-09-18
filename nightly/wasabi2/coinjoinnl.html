@@ -1,0 +1,540 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CoinJoin Statistics</title>
+    <base href="https://coinjoin-stats.github.io/www/nightly/"/>
+    <link rel="stylesheet" href="style.css?v1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <p class=banner>This is a nightly build. For a stable version visit: <a href=https://coinjoin-stats.github.io/www/index.html>https://coinjoin-stats.github.io/www/index.html</a></p>
+        <header>
+        <h1>CoinJoin Statistics</h1>
+        <p class="update">Last updated: 18-09-2025</p>
+        <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> <br>
+        Coinjoin datasets and high-resolution visualizations :  <a href="https://drive.google.com/drive/folders/1iT4HqmXLas-x4pxUexgdc-SEyyWLeYzm?usp=sharing">Google drive</a> </p>
+        
+        <nav class="menu">
+        <ul>
+    <li><a href="index.html" >Overview</a></li><li><a href="wasabi2/all.html" class="current">Wasabi 2</a></li><li><a href="wasabi1.html" >Wasabi 1</a></li><li><a href="whirlpool/all.html" >Samourai Whirlpool</a></li><li><a href="ashigaru/s2p5M.html" >Ashigaru Whirlpool</a></li><li><a href="joinmarket.html" >JoinMarket</a></li>
+        </ul>
+        </nav>
+    <div id='subnav'> <ul><li><a href="wasabi2/all.html" >All coordinators</a></li><li><a href="wasabi2/zksnacks.html" >zkSNACKs</a></li><li><a href="wasabi2/kruw.html" >kruw.io</a></li><li><a href="wasabi2/opencoordinator.html" >opencoordinator.io</a></li><li><a href="wasabi2/gingerwallet.html" >gingerwallet.io</a></li><li><a href="wasabi2/btip.html" >btip.nl</a></li><li><a href="wasabi2/coinjoinnl.html" class="current">coinjoin.nl</a></li><li><a href="wasabi2/dragonordnance.html" >dragonordnance.com</a></li><li><a href="wasabi2/mega.html" >mega.cash</a></li><li><a href="wasabi2/wasabicoordinator.html" >wasabicoordinator.io</a></li><li><a href="wasabi2/wasabist.html" >wasabist.io</a></li><li><a href="wasabi2/unknown.html" >Unknown</a></li></div> </ul>
+        </header>
+    <img src="legend.png" alt="legend" id="legend" />
+    <div id="containers">
+        <h2></h2>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t/wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_nums_norm.png
+?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly/wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_nums_norm.png
+?v2025-09-18" 
+             alt="wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_nums_norm.png
+" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t/wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_nums_notnorm.png
+?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly/wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_nums_notnorm.png
+?v2025-09-18" 
+             alt="wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_nums_notnorm.png
+" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t/wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_values_norm.png
+?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly/wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_values_norm.png
+?v2025-09-18" 
+             alt="wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_values_norm.png
+" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t/wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_values_notnorm.png
+?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly/wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_values_notnorm.png
+?v2025-09-18" 
+             alt="wasabi2_coinjoin_nl/wasabi2_coinjoin_nl_cummul_values_notnorm.png
+" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 September</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-09-01 00-00-00--2025-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 August</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-08-01 00-00-00--2025-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 July</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-07-01 00-00-00--2025-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 June</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-06-01 00-00-00--2025-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 May</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-05-01 00-00-00--2025-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 April</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-04-01 00-00-00--2025-05-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 March</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-03-01 00-00-00--2025-04-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 February</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-02-01 00-00-00--2025-03-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2025 January</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2025-01-01 00-00-00--2025-02-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2024 December</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-12-01 00-00-00--2025-01-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2024 November</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-11-01 00-00-00--2024-12-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2024 October</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-10-01 00-00-00--2024-11-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2024 September</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-09-01 00-00-00--2024-10-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2024 August</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-08-01 00-00-00--2024-09-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2024 July</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-07-01 00-00-00--2024-08-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2024 June</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-06-01 00-00-00--2024-07-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+    <h3>Wasabi 2 - coinjoin nl - 2024 May</h3>
+
+    <div class="container">   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_nums_norm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_notnorm.png" loading="lazy" />
+        </div>
+   
+        <div class="grid-item">
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t//wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly//wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png?v2025-09-18" 
+             alt="/wasabi2_coinjoin_nl/2024-05-01 00-00-00--2024-06-01 00-00-00_unknown-static-100-1utxo/wasabi2_coinjoin_nl_input_types_values_norm.png" loading="lazy" />
+        </div>
+    </div>
+
+    </div>
+    <div id="lightbox">
+      <span class="close">&times;</span>
+      <span class="arrow left">&#10094;</span>
+      <img id="lightbox-img" src="" alt="">
+      <span class="arrow right">&#10095;</span>
+    </div>
+    
+    <script src="./js/lightbox.js?v1"></script>
+  
+  </body>
+  </html>
+  

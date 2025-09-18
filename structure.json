@@ -1,0 +1,104 @@
+{
+    "pages":{
+        "index":{
+            "name":"Overview"
+        },
+        "wasabi2":{
+            "name":"Wasabi 2",
+            "coordinators": [
+                {
+                    "dir":"all",
+                    "name": "All coordinators"
+                },
+                {
+                    "dir": "zksnacks",
+                    "name": "zkSNACKs"
+                },
+                {
+                    "dir": "kruw",
+                    "name": "kruw.io"
+                },
+                {
+                    "dir": "opencoordinator",
+                    "name": "opencoordinator.io"
+                },
+                {
+                    "dir": "gingerwallet",
+                    "name": "gingerwallet.io"
+                },
+                {
+                    "dir": "btip",
+                    "name": "btip.nl"
+                },
+                {
+                    "dir": "coinjoinnl",
+                    "name": "coinjoin.nl"
+                },
+                {
+                    "dir": "dragonordnance",
+                    "name": "dragonordnance.com"
+                },
+                {
+                    "dir": "mega",
+                    "name": "mega.cash"
+                },
+                {
+                    "dir": "wasabicoordinator",
+                    "name": "wasabicoordinator.io"
+                },
+                {
+                    "dir": "wasabist",
+                    "name": "wasabist.io"
+                },
+                {
+                    "dir":"unknown",
+                    "name":"Unknown"
+                }
+            ]
+        },
+        "wasabi1":{
+            "name":"Wasabi 1"
+        },
+        "whirlpool":{
+            "name":"Samourai Whirlpool",
+            "coordinators": [
+                {
+                    "dir":"all",
+                    "name": "All pools"
+                },
+                {
+                    "dir":"s100k",
+                    "name":"100k sats"
+                },
+                {
+                    "dir":"s1M",
+                    "name":"1M sats"
+                },
+                {
+                    "dir":"s5M",
+                    "name":"5M sats"
+                },
+                {
+                    "dir":"s50M",
+                    "name":"50M sats"
+                }
+            ]
+        },
+        "ashigaru":{
+            "name":"Ashigaru Whirlpool",
+            "coordinators": [
+                {
+                    "dir":"s2p5M",
+                    "name":"2.5M sats"
+                },
+                {
+                    "dir":"s25M",
+                    "name":"25M sats"
+                }
+            ]
+        },
+        "joinmarket":{
+            "name":"JoinMarket"
+        }
+    }
+}
