@@ -103,6 +103,8 @@ def traverse_directories(root_dir, starting_depth):
             filepath = os.path.join(dirpath, filename)
             with open(filepath, "r") as file:
                 imgpath = file.readline()
+                if imgpath[0] == "/":
+                    imgpath = imgpath[1:]
 
             output += f"""   
         <div class="grid-item">
