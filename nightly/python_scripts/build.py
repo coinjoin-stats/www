@@ -93,7 +93,7 @@ def traverse_directories(root_dir, starting_depth):
         dir_name = " ".join(os.path.basename(dirpath).split("_")[1:])
         
         depth = dirpath.count(os.sep) - starting_depth
-        if depth > 2:
+        if depth > 1:
             output += f"    <h{depth}>" + dir_name + f"</h{depth}>\n\n"
         
         if len(filenames) > 0:
