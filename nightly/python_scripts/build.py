@@ -10,6 +10,12 @@ def get_selector(coordinators, current, page):
     return selector
 
 def get_header(structure, current_page, current_coordinator=None, base=None):
+    if os.path.isfile(f"./summary.json"):
+        with open(f"./summary.json", "r") as file:
+            date = json.load(file)["date"]
+    else:
+        date = datetime.datetime.today().strftime('%d-%m-%Y')
+
     header = f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -25,7 +31,7 @@ def get_header(structure, current_page, current_coordinator=None, base=None):
         <p class=banner>This is a nightly build. For a stable version visit: <a href=https://coinjoin-stats.github.io/www/index.html>https://coinjoin-stats.github.io/www/index.html</a></p>
         <header>
         <h1>CoinJoin Statistics</h1>
-        <p class="update">Last updated: {datetime.datetime.today().strftime('%d-%m-%Y')}</p>
+        <p class="update">Last updated: {date}</p>
         <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> <br>
 
         <nav class="menu">
@@ -51,8 +57,8 @@ def get_header(structure, current_page, current_coordinator=None, base=None):
                 text = file.read()
                 header += f"""<div class="container"><div class="text"><p>{text}</p></div></div>"""
     else:
-        if os.path.isfile(f'./texts/{current_page + "_" + current_coordinator["dir"]}.txt'):
-            with open(f'./texts/{current_page + "_" + current_coordinator["dir"]}.txt', "r") as file:
+        if os.path.isfile(f'./texts/{current_page + "_" + current_coordinator}.txt'):
+            with open(f'./texts/{current_page + "_" + current_coordinator}.txt', "r") as file:
                 text = file.read()
                 header += f"""<div class="container"><div class="text"><p>{text}</p></div></div>"""
 
