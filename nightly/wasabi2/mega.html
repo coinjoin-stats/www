@@ -25,7 +25,97 @@
         </header>
     <img src="legend.png" alt="legend" id="legend" />
     <div id="containers">
-        <h2></h2>
+    <div class="container"><div class="text"><p><section class="cjseg" aria-label="Liquidity summary">
+          
+        <style>
+        .cjseg { --fg:#111; --bg:#fff; --muted:#666; --line:#e5e7eb; --accent:#111; font-family: ui-sans-serif, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color:var(--fg);}
+        .cjseg .cjseg-header { margin-bottom: 12px; }
+        .cjseg h2 { margin: 0; font-size: 1.35rem; font-weight: 700; line-height: 1.3; }
+        .cjseg .sub { color: var(--muted); margin-top: 2px; font-size: 0.9rem; }
+        .cjseg .meta { margin-top: 6px; font-size: 0.95rem; }
+        .cjseg .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 10px; }
+
+        /* Cards */
+        .cjseg .card { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: var(--bg); }
+        .cjseg .card-title { font-weight: 600; margin-bottom: 6px; }
+        .cjseg .card-body { display: grid; gap: 4px; }
+        .cjseg .kv { display: flex; justify-content: space-between; gap: 10px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 0.92rem; }
+        .cjseg .kv .k { color: var(--muted); }
+        .cjseg .kv .v { font-weight: 600; }
+
+        /* Tabs (single) */
+        .cjseg .tabs { display: flex; gap: 6px; border-bottom: 1px solid var(--line); margin: 10px 0 8px; }
+        .cjseg .tab { background: transparent; border: none; padding: 6px 8px; font-weight: 600; cursor: default; color: var(--fg); border-bottom: 2px solid var(--fg); }
+        .cjseg .tab-panels { margin-top: 4px; }
+        .cjseg .tab-panel { display: none; }
+        .cjseg .tab-panel.show { display: block; }
+
+        /* IO panel */
+        .cjseg .io-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 10px; }
+        .cjseg .io-col { border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+        .cjseg .io-col .over { font-weight: 600; margin-bottom: 2px; }
+        .cjseg .io-col .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 0.98rem; }
+        .cjseg .io-col .under { color: var(--muted); font-size: 0.85rem; margin-top: 2px; }
+
+        .cjseg .foot { margin-top: 8px; color: var(--muted); font-size: 0.85rem; }
+        @media (prefers-color-scheme: dark) {
+          .cjseg { --fg:#e5e7eb; --bg:#0b0b0b; --muted:#9aa0a6; --line:#2a2a2a; --accent:#e5e7eb; }
+          .cjseg .card { background: #121212; }
+          .cjseg .io-col { background: #121212; }
+        }
+        </style>
+        
+          
+        <div class="cjseg-header">
+          <div class="meta">Total coinjoins: <b>67</b></div>
+          <div class="meta">Period         : <b>2024-07-08 23:46:07.000 <a href="https://mempool.space/tx/dff78c9e85194f2853e92a1667dd984c2e86150af76cceefa25472bc1b20763d">(tx)</a> — 2024-07-20 20:59:57.000 <a href="https://mempool.space/tx/58c30949bddcd49e1e12693f95d22ab1c21bffe12899ef4fedc04f34b4951e36">(tx)</a></b></div>
+        </div>
+        
+
+          
+        <div class="tabs" role="tablist" aria-label="Stats tabs">
+          <button class="tab active" role="tab" aria-selected="true" tabindex="0">Inputs &amp; Outputs</button>
+        </div>
+        <div class="tab-panels">
+          <div class="tab-panel show" role="tabpanel">
+            
+          <div class="io-grid">
+            <div class="io-col">
+              <div class="over">Inputs per CJ</div>
+              <div class="mono">20 / 29.9 / 29.0 / 60</div>
+              <div class="under">min / avg / median / max</div>
+            </div>
+            <div class="io-col">
+              <div class="over">Outputs per CJ</div>
+              <div class="mono">18 / 33.7 / 33.0 / 56</div>
+              <div class="under">min / avg / median / max</div>
+            </div>
+          </div>
+        
+          </div>
+        </div>
+        
+
+          <div class="grid">
+            
+        <div class="card">
+          <div class="card-title">Key Ratios</div>
+          <div class="card-body">
+            <span class="kv"><span class="k">Fresh inputs / total inputs</span><span class="v">64/2003 (3.2%)</span></span><span class="kv"><span class="k">Friends inputs / total inputs</span><span class="v">40/2003 (2.0%)</span></span><span class="kv"><span class="k">Leaving outputs / total outputs</span><span class="v">201/2257 (8.9%)</span></span><span class="kv"><span class="k">Staying outputs / total outputs</span><span class="v">38/2257 (1.7%)</span></span><span class="kv"><span class="k">Staying / non-remix outputs</span><span class="v">38/239 (15.9%)</span></span><span class="kv"><span class="k">Remixed inputs / total (numbers)</span><span class="v">1899/2003 (94.8%)</span></span><span class="kv"><span class="k">Remixed inputs / total (values)</span><span class="v">1518766364/1724932893 (88.0%)</span></span>
+          </div>
+        </div>
+        
+            
+        <div class="card">
+          <div class="card-title">Aggregate Values</div>
+          <div class="card-body">
+            <span class="kv"><span class="k">Fresh inputs (BTC)</span><span class="v">1.40736423</span></span><span class="kv"><span class="k">Friends inputs (BTC)</span><span class="v">0.65430106</span></span><span class="kv"><span class="k">Unmoved outputs (BTC)</span><span class="v">0.05196894</span></span><span class="kv"><span class="k">Leaving outputs (BTC)</span><span class="v">2.55881517</span></span><span class="kv"><span class="k">Nonstandard leaving (BTC)</span><span class="v">0.41896121</span></span><span class="kv"><span class="k">Fresh inputs w/o nonstandard (BTC)</span><span class="v">0.98840302</span></span>
+          </div>
+        </div>
+        
+          </div>
+
+        </section></p></div></div>    <h2></h2>
 
     <div class="container">   
         <div class="grid-item">
