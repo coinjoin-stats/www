@@ -55,13 +55,13 @@ def get_header(structure, current_page, current_coordinator=None, base=None):
         if os.path.isfile(f"/home/xsvenda/public_html/cjs/nightly/texts/{current_page}.html"):
             with open(f"/home/xsvenda/public_html/cjs/nightly/texts/{current_page}.html", "r") as file:
                 text = file.read()
-                header += f"""<div class="container"><div class="text"><p>{text}</p></div></div>"""
+                header += f"""<div class="container"><div class="text">{text}</div></div>"""
     else:
         if os.path.isfile(f'/home/xsvenda/public_html/cjs/nightly/texts/{current_page + "_" + current_coordinator}.html'):
             with open(f'/home/xsvenda/public_html/cjs/nightly/texts/{current_page + "_" + current_coordinator}.html', "r") as file:
                 print(f'/home/xsvenda/public_html/cjs/nightly/texts/{current_page + "_" + current_coordinator}.html')
                 text = file.read()
-                header += f"""<div class="container"><div class="text"><p>{text}</p></div></div>"""
+                header += f"""<div class="container"><div class="text">{text}</div></div>"""
 
     return header
 
