@@ -202,7 +202,7 @@ if __name__ == "__main__":
                 body += "    </div>\n"
             
             else:
-                start_directory = f"{image_source}{structure["pages"][page]["dir"]}" 
+                start_directory = f'{image_source}{structure["pages"][page]["dir"]}' 
                 body = traverse_directories(start_directory, image_source, page_details["name"] + " - ") 
 
             output = header + body + footer
