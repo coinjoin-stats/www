@@ -1,6 +1,29 @@
 import os
 import datetime
 import json
+import re
+
+image_whitelist = ["input_types_nums_notnorm.png", "input_types_nums_norm.png", "input_types_values_norm.png", "input_types_values_notnorm.png",
+                "cummul_values_norm.png", "cummul_values_notnorm.png", "cummul_nums_norm.png", "cummul_nums_notnorm.png"]
+
+def is_whitelisted(name):
+    for w in image_whitelist:
+        if w == name[-len(w):]:
+            return True
+    return False
+
+def extract_month_year(folder_name):
+    # Regex pattern to extract a date like "2022-06-01 00-00-00"
+    date_pattern = re.compile(r'(\d{4})-(\d{2})-\d{2} \d{2}-\d{2}-\d{2}')
+
+    match = date_pattern.search(folder_name)
+    if match:
+        year, month = match.group(1), match.group(2)
+        month_name = datetime.datetime.strptime(month, "%m").strftime("%B")
+        print(month, month_name)
+        return f"{month_name} {year}"
+    return None
+
 
 def get_selector(coordinators, current, page):
     selector = "<div id='subnav'> <ul>"
@@ -86,34 +109,43 @@ def get_footer(script=None):
   """
   return footer
 
-def traverse_directories(root_dir, starting_depth):
-    print(root_dir)
-    output = ''
-    for dirpath, dirnames, filenames in os.walk(root_dir):
-        dirnames.sort()
-        dir_name = " ".join(os.path.basename(dirpath).split("_")[1:])
-        
-        depth = dirpath.count(os.sep) - starting_depth
-        if depth > 1:
-            output += f"    <h{depth}>" + dir_name + f"</h{depth}>\n\n"
-        
-        if len(filenames) > 0:
-            output += '    <div class="container">'
-
-        for filename in filenames:
-            filepath = os.path.join(dirpath, filename)
-            with open(filepath, "r") as file:
-                imgpath = file.readline()
-                if imgpath[0] == "/":
-                    imgpath = imgpath[1:]
-
-            output += f"""   
+def get_img_block(imgpath):
+    return f"""   
         <div class="grid-item">
         <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly_t/{imgpath}?v{datetime.datetime.today().strftime('%Y-%m-%d')}" 
              data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly/{imgpath}?v{datetime.datetime.today().strftime('%Y-%m-%d')}" 
              alt="{imgpath}" loading="lazy" />
         </div>
 """
+
+def traverse_directories(root_dir, base_dir, name_start):
+    print(root_dir)
+    base_depth = base_dir.count(os.sep)
+    output = ''
+    for dirpath, dirnames, filenames in os.walk(root_dir):
+        dirnames.sort()
+        dir_name = os.path.basename(dirpath)
+        
+        depth = dirpath.count(os.sep) - base_depth
+        if depth > 0:
+            month_year = extract_month_year(dir_name)
+            print(dir_name)
+            if month_year is not None:
+                output += f"    <h{depth + 1}>" + name_start + month_year + f"</h{depth + 1}>\n\n"
+            else:
+                output += f"    <h{depth + 1}>" + name_start + dir_name + f"</h{depth + 1}>\n\n"
+        
+        if len(filenames) > 0:
+            output += '    <div class="container">'
+
+        for filename in filenames:
+            if not is_whitelisted(filename):
+                print(filename)
+                continue
+            filepath = os.path.join(dirpath, filename)
+            imgpath = os.path.relpath(filepath, start=base_dir)
+
+            output += get_img_block(imgpath)
         
         if len(filenames) > 0:
             output += "    </div>\n"
@@ -121,9 +153,12 @@ def traverse_directories(root_dir, starting_depth):
 
 
 if __name__ == "__main__":
-    base = "https://coinjoin-stats.github.io/www/nightly/"
+    base = "file:///home/jirigav/Desktop/www/nightly/"
     with open("structure.json", "r") as file:
         structure = json.load(file)
+
+    image_source = structure["image_source"]
+    base = structure["web_base"]
 
     for page,page_details in structure["pages"].items():
       
@@ -131,17 +166,47 @@ if __name__ == "__main__":
             os.makedirs(f"./{page}", exist_ok=True)
           
             for coordinator in page_details["coordinators"]:
-                start_directory = f'./figures/{page}/{coordinator["dir"]}'
+                start_directory = f'{image_source}{coordinator["dir"]}'
 
-                output = get_header(structure, page, coordinator["dir"], base=base) + traverse_directories(start_directory, 1) + get_footer()
+                output = get_header(structure, page, coordinator["dir"], base=base) + \
+                traverse_directories(start_directory, image_source, page_details["name"] + " - " + coordinator["name"] + " - ") 
+
+                # if page == "wasabi2" and coordinator["dir"] == "wasabi2":
+                #     output += """
+                #     <h2>Flows</h2>
+                    
+                #     <iframe src="./flows/coordinator_flows_counts_.html">
+                #         Your browser does not support iframes.
+                #     </iframe>
+                #     <iframe src="./flows/coordinator_flows_values_.html">
+                #         Your browser does not support iframes.
+                #     </iframe>
+                #     <iframe src="./flows/coordinator_flows_values_incl_zksnacks.html">
+                #         Your browser does not support iframes.
+                #     </iframe>
+                # """
+
+                output += get_footer()
 
                 with open(f'./{page}/{coordinator["dir"]}.html', "w") as file:
                     file.write(output)
 
       
         else:
-            start_directory = f"./figures/{page}" 
-            output = get_header(structure, page, base=base) + traverse_directories(start_directory, 1) + get_footer()
+            header = get_header(structure, page, base=base)
+            footer = get_footer()
+
+            if "paths" in structure["pages"][page]:
+                body = '<div class="container">'
+                for path in structure["pages"][page]["paths"]:
+                    body += get_img_block(path)
+                body += "    </div>\n"
+            
+            else:
+                start_directory = f"{image_source}{structure["pages"][page]["dir"]}" 
+                body = traverse_directories(start_directory, image_source, page_details["name"] + " - ") 
+
+            output = header + body + footer
 
             with open(f"./{page}.html", "w") as file:
                 file.write(output)

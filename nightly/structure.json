@@ -1,85 +1,94 @@
-{
+{   
+    "image_source": "/home/xsvenda/public_html/cjs/nightly/",
+    "web_base": "https://coinjoin-stats.github.io/www/nightly/",
     "pages":{
         "index":{
-            "name":"Overview"
+            "name":"Overview",
+            "paths":[
+                "/wasabi2/wasabi2_cummul_values_norm.png",
+                "/joinmarket_all/joinmarket_all_cummul_values_norm.png",
+                "/wasabi1/wasabi1_cummul_values_norm.png",
+                "/whirlpool/whirlpool_cummul_values_norm.png"
+            ]
         },
         "wasabi2":{
             "name":"Wasabi 2",
             "coordinators": [
                 {
-                    "dir":"all",
+                    "dir":"wasabi2",
                     "name": "All coordinators"
                 },
                 {
-                    "dir": "zksnacks",
+                    "dir": "wasabi2_zksnacks",
                     "name": "zkSNACKs"
                 },
                 {
-                    "dir": "kruw",
+                    "dir": "wasabi2_kruw",
                     "name": "kruw.io"
                 },
                 {
-                    "dir": "opencoordinator",
+                    "dir": "wasabi2_opencoordinator",
                     "name": "opencoordinator.io"
                 },
                 {
-                    "dir": "gingerwallet",
+                    "dir": "wasabi2_gingerwallet",
                     "name": "gingerwallet.io"
                 },
                 {
-                    "dir": "btip",
+                    "dir": "wasabi2_btip",
                     "name": "btip.nl"
                 },
                 {
-                    "dir": "coinjoinnl",
+                    "dir": "wasabi2_coinjoin_nl",
                     "name": "coinjoin.nl"
                 },
                 {
-                    "dir": "dragonordnance",
+                    "dir": "wasabi2_dragonordnance",
                     "name": "dragonordnance.com"
                 },
                 {
-                    "dir": "mega",
+                    "dir": "wasabi2_mega",
                     "name": "mega.cash"
                 },
                 {
-                    "dir": "wasabicoordinator",
+                    "dir": "wasabi2_wasabicoordinator",
                     "name": "wasabicoordinator.io"
                 },
                 {
-                    "dir": "wasabist",
+                    "dir": "wasabi2_wasabist",
                     "name": "wasabist.io"
                 },
                 {
-                    "dir":"unknown",
+                    "dir":"wasabi2_unknown_2024",
                     "name":"Unknown"
                 }
             ]
         },
         "wasabi1":{
-            "name":"Wasabi 1"
+            "name":"Wasabi 1",
+            "dir": "wasabi1"
         },
         "whirlpool":{
             "name":"Samourai Whirlpool",
             "coordinators": [
                 {
-                    "dir":"all",
+                    "dir":"whirlpool",
                     "name": "All pools"
                 },
                 {
-                    "dir":"s100k",
+                    "dir":"whirlpool_100k",
                     "name":"100k sats"
                 },
                 {
-                    "dir":"s1M",
+                    "dir":"whirlpool_1M",
                     "name":"1M sats"
                 },
                 {
-                    "dir":"s5M",
+                    "dir":"whirlpool_5M",
                     "name":"5M sats"
                 },
                 {
-                    "dir":"s50M",
+                    "dir":"whirlpool_50M",
                     "name":"50M sats"
                 }
             ]
@@ -88,17 +97,18 @@
             "name":"Ashigaru Whirlpool",
             "coordinators": [
                 {
-                    "dir":"s2p5M",
+                    "dir":"whirlpool_ashigaru_2_5M",
                     "name":"2.5M sats"
                 },
                 {
-                    "dir":"s25M",
+                    "dir":"whirlpool_ashigaru_25M",
                     "name":"25M sats"
                 }
             ]
         },
         "joinmarket":{
-            "name":"JoinMarket"
+            "name":"JoinMarket",
+            "dir": "joinmarket_all"
         }
     }
 }
