@@ -153,7 +153,6 @@ def traverse_directories(root_dir, base_dir, name_start):
 
 
 if __name__ == "__main__":
-    base = "file:///home/jirigav/Desktop/www/nightly/"
     with open("structure.json", "r") as file:
         structure = json.load(file)
 
