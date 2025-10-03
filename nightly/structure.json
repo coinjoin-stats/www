@@ -60,16 +60,22 @@
                 },
                 {
                     "dir":"wasabi2_unknown_2024",
-                    "name":"Unknown"
+                    "name":"Unknown_2024"
                 }
             ]
         },
         "wasabi1":{
             "name":"Wasabi 1",
-            "dir": "wasabi1"
+            "coordinators": [
+                {
+                    "dir": "wasabi1",
+                    "name": "zkSNACKs"
+                }
+            ]
+            
         },
         "whirlpool":{
-            "name":"Samourai Whirlpool",
+            "name":"Whirlpool",
             "coordinators": [
                 {
                     "dir":"whirlpool",
@@ -77,35 +83,31 @@
                 },
                 {
                     "dir":"whirlpool_100k",
-                    "name":"100k sats"
+                    "name":"Samourai 100k sats"
                 },
                 {
                     "dir":"whirlpool_1M",
-                    "name":"1M sats"
+                    "name":"Samourai 1M sats"
                 },
                 {
                     "dir":"whirlpool_5M",
-                    "name":"5M sats"
+                    "name":"Samourai 5M sats"
                 },
                 {
                     "dir":"whirlpool_50M",
-                    "name":"50M sats"
-                }
-            ]
-        },
-        "ashigaru":{
-            "name":"Ashigaru Whirlpool",
-            "coordinators": [
+                    "name":"Samourai 50M sats"
+                },
                 {
                     "dir":"whirlpool_ashigaru_2_5M",
-                    "name":"2.5M sats"
+                    "name":"Ashigaru 2.5M sats"
                 },
                 {
                     "dir":"whirlpool_ashigaru_25M",
-                    "name":"25M sats"
+                    "name":"Ashigaru 25M sats"
                 }
             ]
         },
+
         "joinmarket":{
             "name":"JoinMarket",
             "dir": "joinmarket_all"
