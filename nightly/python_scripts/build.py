@@ -20,7 +20,6 @@ def extract_month_year(folder_name):
     if match:
         year, month = match.group(1), match.group(2)
         month_name = datetime.datetime.strptime(month, "%m").strftime("%B")
-        print(month, month_name)
         return f"{month_name} {year}"
     return None
 
@@ -129,7 +128,7 @@ def traverse_directories(root_dir, base_dir, name_start):
         depth = dirpath.count(os.sep) - base_depth
         if depth > 0:
             month_year = extract_month_year(dir_name)
-            print(dir_name)
+
             if month_year is not None:
                 output += f"    <h{depth + 1}>" + name_start + month_year + f"</h{depth + 1}>\n\n"
             else:
@@ -140,7 +139,6 @@ def traverse_directories(root_dir, base_dir, name_start):
 
         for filename in filenames:
             if not is_whitelisted(filename):
-                print(filename)
                 continue
             filepath = os.path.join(dirpath, filename)
             imgpath = os.path.relpath(filepath, start=base_dir)

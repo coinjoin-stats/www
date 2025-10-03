@@ -69,6 +69,10 @@
             "coordinators": [
                 {
                     "dir": "wasabi1",
+                    "name": "All coordinators"
+                },
+                {
+                    "dir": "wasabi1_zksnacks",
                     "name": "zkSNACKs"
                 }
             ]
@@ -80,6 +84,14 @@
                 {
                     "dir":"whirlpool",
                     "name": "All pools"
+                },
+                {
+                    "dir":"whirlpool_ashigaru_2_5M",
+                    "name":"Ashigaru 2.5M sats"
+                },
+                {
+                    "dir":"whirlpool_ashigaru_25M",
+                    "name":"Ashigaru 25M sats"
                 },
                 {
                     "dir":"whirlpool_100k",
@@ -96,14 +108,6 @@
                 {
                     "dir":"whirlpool_50M",
                     "name":"Samourai 50M sats"
-                },
-                {
-                    "dir":"whirlpool_ashigaru_2_5M",
-                    "name":"Ashigaru 2.5M sats"
-                },
-                {
-                    "dir":"whirlpool_ashigaru_25M",
-                    "name":"Ashigaru 25M sats"
                 }
             ]
         },
