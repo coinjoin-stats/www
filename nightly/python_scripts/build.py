@@ -31,9 +31,9 @@ def get_selector(coordinators, current, page):
     selector += "</div> </ul>"
     return selector
 
-def get_header(structure, current_page, current_coordinator=None, base=None):
-    if os.path.isfile(f"./summary.json"):
-        with open(f"./summary.json", "r") as file:
+def get_header(structure, current_page, data_source, current_coordinator=None, base=None):
+    if os.path.isfile(f"{data_source}/summary.json"):
+        with open(f"{data_source}/summary.json", "r") as file:
             date = json.load(file)["date"]
     else:
         date = datetime.datetime.today().strftime('%d-%m-%Y')
@@ -165,7 +165,7 @@ if __name__ == "__main__":
             for coordinator in page_details["coordinators"]:
                 start_directory = f'{image_source}{coordinator["dir"]}'
 
-                output = get_header(structure, page, coordinator["dir"], base=base) + \
+                output = get_header(structure, page, coordinator["dir"], image_source, base=base) + \
                 traverse_directories(start_directory, image_source, page_details["name"] + " - " + coordinator["name"] + " - ") 
 
                 # if page == "wasabi2" and coordinator["dir"] == "wasabi2":
@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
       
         else:
-            header = get_header(structure, page, base=base)
+            header = get_header(structure, page, image_source, base=base)
             footer = get_footer()
 
             if "paths" in structure["pages"][page]:
