@@ -78,12 +78,16 @@ def get_header(structure, current_page, data_source, current_coordinator=None, b
             with open(f"/home/xsvenda/public_html/cjs/nightly/texts/{current_page}.html", "r") as file:
                 text = file.read()
                 header += f"""<div class="container"><div class="text">{text}</div></div>"""
+        else:
+            print(f"/home/xsvenda/public_html/cjs/nightly/texts/{current_page}.html", "Not found")
     else:
         if os.path.isfile(f'/home/xsvenda/public_html/cjs/nightly/texts/{current_coordinator}.html'):
             with open(f'/home/xsvenda/public_html/cjs/nightly/texts/{current_coordinator}.html', "r") as file:
                 print(f'/home/xsvenda/public_html/cjs/nightly/texts/{current_coordinator}.html')
                 text = file.read()
                 header += f"""<div class="container"><div class="text">{text}</div></div>"""
+        else:
+            print(f'/home/xsvenda/public_html/cjs/nightly/texts/{current_coordinator}.html', "Not found")
 
     return header
 
@@ -165,7 +169,7 @@ if __name__ == "__main__":
             for coordinator in page_details["coordinators"]:
                 start_directory = f'{image_source}{coordinator["dir"]}'
 
-                output = get_header(structure, page, coordinator["dir"], image_source, base=base) + \
+                output = get_header(structure, page, image_source, current_coordinator=coordinator["dir"], base=base) + \
                 traverse_directories(start_directory, image_source, page_details["name"] + " - " + coordinator["name"] + " - ") 
 
                 # if page == "wasabi2" and coordinator["dir"] == "wasabi2":
