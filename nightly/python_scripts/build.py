@@ -126,7 +126,7 @@ def traverse_directories(root_dir, base_dir, name_start):
     base_depth = base_dir.count(os.sep)
     output = ''
     for dirpath, dirnames, filenames in os.walk(root_dir):
-        dirnames.sort()
+        dirnames.sort(reversed=True)
         dir_name = os.path.basename(dirpath)
         
         depth = dirpath.count(os.sep) - base_depth
