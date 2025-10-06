@@ -172,20 +172,20 @@ if __name__ == "__main__":
                 output = get_header(structure, page, image_source, current_coordinator=coordinator["dir"], base=base) + \
                 traverse_directories(start_directory, image_source, page_details["name"] + " - " + coordinator["name"] + " - ") 
 
-                # if page == "wasabi2" and coordinator["dir"] == "wasabi2":
-                #     output += """
-                #     <h2>Flows</h2>
+                if page == "wasabi2" and coordinator["dir"] == "wasabi2":
+                    output += """
+                    <h2>Flows</h2>
                     
-                #     <iframe src="./flows/coordinator_flows_counts_.html">
-                #         Your browser does not support iframes.
-                #     </iframe>
-                #     <iframe src="./flows/coordinator_flows_values_.html">
-                #         Your browser does not support iframes.
-                #     </iframe>
-                #     <iframe src="./flows/coordinator_flows_values_incl_zksnacks.html">
-                #         Your browser does not support iframes.
-                #     </iframe>
-                # """
+                    <iframe src="./flows/coordinator_flows_counts_.html">
+                        Your browser does not support iframes.
+                    </iframe>
+                    <iframe src="./flows/coordinator_flows_values_.html">
+                        Your browser does not support iframes.
+                    </iframe>
+                    <iframe src="./flows/coordinator_flows_values_incl_zksnacks.html">
+                        Your browser does not support iframes.
+                    </iframe>
+                """
 
                 output += get_footer()
 
