@@ -91,11 +91,13 @@
                 },
                 {
                     "dir":"whirlpool_ashigaru_2_5M",
-                    "name":"Ashigaru 2.5M sats"
+                    "name":"Ashigaru 2.5M sats",
+                    "active": true
                 },
                 {
                     "dir":"whirlpool_ashigaru_25M",
-                    "name":"Ashigaru 25M sats"
+                    "name":"Ashigaru 25M sats",
+                    "active": true
                 },
                 {
                     "dir":"whirlpool_100k",

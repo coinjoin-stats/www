@@ -116,6 +116,10 @@ header p {
   background-color: #c0fa9a;
 }
 
+#subnav a.active:hover {
+  background-color: #57694b;
+}
+
 #subnav a.current.active {
   background-color: #57694b;
 }
