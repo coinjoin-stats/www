@@ -24,23 +24,27 @@
                 },
                 {
                     "dir": "wasabi2_kruw",
-                    "name": "kruw.io"
+                    "name": "kruw.io",
+                    "active": true
                 },
                 {
                     "dir": "wasabi2_opencoordinator",
-                    "name": "opencoordinator.io"
+                    "name": "opencoordinator.io",
+                    "active": true
                 },
                 {
                     "dir": "wasabi2_gingerwallet",
-                    "name": "gingerwallet.io"
+                    "name": "gingerwallet.io",
+                    "active": true
+                },
+                {
+                    "dir": "wasabi2_coinjoin_nl",
+                    "name": "coinjoin.nl",
+                    "active": true
                 },
                 {
                     "dir": "wasabi2_btip",
                     "name": "btip.nl"
-                },
-                {
-                    "dir": "wasabi2_coinjoin_nl",
-                    "name": "coinjoin.nl"
                 },
                 {
                     "dir": "wasabi2_dragonordnance",
@@ -60,7 +64,7 @@
                 },
                 {
                     "dir":"wasabi2_unknown_2024",
-                    "name":"Unknown_2024"
+                    "name":"unknown_2024"
                 }
             ]
         },

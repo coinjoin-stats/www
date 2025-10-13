@@ -63,7 +63,7 @@ def get_header(structure, current_page, data_source, current_coordinator=None, b
         page_dir = page
         if "coordinators" in page_details:
             page_dir += "/" + page_details["coordinators"][0]["dir"]
-        header += f"""<li><a href="{page_dir}.html" {'class="current"' if page==current_page else ""}>{page_details["name"]}</a></li>"""
+        header += f"""<li><a href="{page_dir}.html" {'class="current"' if page==current_page else ""} {'class="active"' if "active" in page_details and page_details["active"] == True else ""}>{page_details["name"]}</a></li>"""
   
     header +=f"""
         </ul>
