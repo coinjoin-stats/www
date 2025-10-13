@@ -27,7 +27,7 @@ def extract_month_year(folder_name):
 def get_selector(coordinators, current, page):
     selector = "<div id='subnav'> <ul>"
     for coordinator in coordinators:
-        selector += f"""<li><a href="{page}/{coordinator["dir"]}.html" {'class="current"' if coordinator["dir"]==current else ""} {'class="active"' if "active" in coordinator and coordinator["active"] == True else ""} >{coordinator["name"]}</a></li>"""
+        selector += f"""<li><a href="{page}/{coordinator["dir"]}.html" class="{'current' if coordinator["dir"]==current else ""} {'active' if "active" in coordinator and coordinator["active"] == True else ""}" >{coordinator["name"]}</a></li>"""
     selector += "</div> </ul>"
     return selector
 
