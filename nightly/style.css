@@ -112,11 +112,11 @@ header p {
   color: #777;
 }
 
-#subnav a .active {
+#subnav a.active {
   background-color: #c0fa9a;
 }
 
-#subnav a .current .active {
+#subnav a.current.active {
   background-color: #57694b;
 }
 
