@@ -54,11 +54,11 @@ def get_header(structure, current_page, data_source, current_coordinator=None, b
         <header>
         <h1>CoinJoin Statistics</h1>
         <p class="update">Last updated: {date}</p>
-        <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> <br>
 
         <nav class="menu">
         <ul>
     """
+    #         <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> <br>
     for page,page_details in structure["pages"].items():
         page_dir = page
         if "coordinators" in page_details:
