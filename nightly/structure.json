@@ -59,8 +59,12 @@
                     "name": "wasabist.io"
                 },
                 {
-                    "dir":"wasabi2_unknown_2024",
-                    "name":"unknown_2024"
+                    "dir":"wasabi2_unknown_2024_e85631",
+                    "name":"unknown_2024_e85631"
+                },
+                {
+                    "dir":"wasabi2_unknown_2024_28ce7b",
+                    "name":"unknown_2024_28ce7b"
                 }
             ]
         },
