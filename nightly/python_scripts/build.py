@@ -219,6 +219,7 @@ if __name__ == "__main__":
                 body += "    </div>\n"
             
             else:
+                body = ""
                 if structure["pages"][page].get("large_images") is not None:
                     body += get_large_images(structure["pages"][page].get("large_images"))
 
