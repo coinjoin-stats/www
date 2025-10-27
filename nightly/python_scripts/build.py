@@ -3,8 +3,7 @@ import datetime
 import json
 import re
 
-image_whitelist = ["input_types_nums_notnorm.png", "input_types_nums_norm.png", "input_types_values_norm.png", "input_types_values_notnorm.png",
-                "cummul_values_norm.png", "cummul_values_notnorm.png", "cummul_nums_norm.png", "cummul_nums_notnorm.png"]
+image_whitelist = ["input_types_nums_notnorm.png", "input_types_nums_norm.png", "input_types_values_norm.png", "input_types_values_notnorm.png"]
 
 def is_whitelisted(name):
     for w in image_whitelist:
