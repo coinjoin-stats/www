@@ -154,6 +154,18 @@ def traverse_directories(root_dir, base_dir, name_start):
     return output
 
 
+def get_large_images(images):
+    result = ""
+    for img in images:
+        result += f"""<div class='container'> <div class='large'> 
+        <img src="https://www.fi.muni.cz/~xsvenda/cjs/nightly/{img}?v{datetime.datetime.today().strftime('%Y-%m-%d')}" 
+             data-full="https://www.fi.muni.cz/~xsvenda/cjs/nightly/{img}?v{datetime.datetime.today().strftime('%Y-%m-%d')}" 
+             alt="{img}" loading="lazy" />
+         </div> </div>\n"""
+    
+    return result
+
+
 if __name__ == "__main__":
     with open("structure.json", "r") as file:
         structure = json.load(file)
@@ -169,8 +181,9 @@ if __name__ == "__main__":
             for coordinator in page_details["coordinators"]:
                 start_directory = f'{image_source}{coordinator["dir"]}'
 
-                output = get_header(structure, page, image_source, current_coordinator=coordinator["dir"], base=base) + \
-                traverse_directories(start_directory, image_source, page_details["name"] + " - " + coordinator["name"] + " - ") 
+                output = get_header(structure, page, image_source, current_coordinator=coordinator["dir"], base=base)
+                
+                output += traverse_directories(start_directory, image_source, page_details["name"] + " - " + coordinator["name"] + " - ") 
 
                 if page == "wasabi2" and coordinator["dir"] == "wasabi2":
                     output += """
@@ -204,8 +217,9 @@ if __name__ == "__main__":
                 body += "    </div>\n"
             
             else:
+                if 
                 start_directory = f'{image_source}{structure["pages"][page]["dir"]}' 
-                body = traverse_directories(start_directory, image_source, page_details["name"] + " - ") 
+                body += traverse_directories(start_directory, image_source, page_details["name"] + " - ") 
 
             output = header + body + footer
 

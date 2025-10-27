@@ -55,6 +55,9 @@
                     "name": "wasabicoordinator.io"
                 },
                 {
+                    "large_images": [
+                        "/wasabi2_wasabist/wasabi2_wasabist_cummul_values_norm.png"
+                    ],
                     "dir": "wasabi2_wasabist",
                     "name": "wasabist.io"
                 },
