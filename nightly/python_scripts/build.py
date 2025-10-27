@@ -183,8 +183,8 @@ if __name__ == "__main__":
 
                 output = get_header(structure, page, image_source, current_coordinator=coordinator["dir"], base=base)
 
-                if page_details["coordinators"][coordinator].get("large_images") is not None:
-                    output += get_large_images(page_details["coordinators"][coordinator].get("large_images"))
+                if coordinator.get("large_images") is not None:
+                    output += get_large_images(coordinator.get("large_images"))
                 
                 output += traverse_directories(start_directory, image_source, page_details["name"] + " - " + coordinator["name"] + " - ") 
 
