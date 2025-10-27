@@ -182,6 +182,9 @@ if __name__ == "__main__":
                 start_directory = f'{image_source}{coordinator["dir"]}'
 
                 output = get_header(structure, page, image_source, current_coordinator=coordinator["dir"], base=base)
+
+                if page_details["coordinators"][coordinator].get("large_images") is not None:
+                    output += get_large_images(page_details["coordinators"][coordinator].get("large_images"))
                 
                 output += traverse_directories(start_directory, image_source, page_details["name"] + " - " + coordinator["name"] + " - ") 
 
@@ -217,7 +220,9 @@ if __name__ == "__main__":
                 body += "    </div>\n"
             
             else:
-                if 
+                if structure["pages"][page].get("large_images") is not None:
+                    body += get_large_images(structure["pages"][page].get("large_images"))
+
                 start_directory = f'{image_source}{structure["pages"][page]["dir"]}' 
                 body += traverse_directories(start_directory, image_source, page_details["name"] + " - ") 
 
