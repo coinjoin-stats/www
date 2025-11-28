@@ -73,6 +73,17 @@ header p {
   font-weight: bold;
 }
 
+.menu a.active {
+  background-color: #c0fa9a;
+}
+
+.menu a.active:hover {
+  background-color: #57694b;
+}
+
+.menu a.current.active {
+  background-color: #57694b;
+}
 
 #subnav {
   padding-top: 5px;
