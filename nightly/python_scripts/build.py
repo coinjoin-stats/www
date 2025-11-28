@@ -104,7 +104,7 @@ class WebGenerator:
 
         return header
 
-
+    @staticmethod
     def get_footer():
         return """
             </div>
@@ -206,7 +206,7 @@ class WebGenerator:
                         </iframe>
                     """
 
-                    output += self.get_footer()
+                    output += WebGenerator.get_footer()
 
                     with open(f'./{page}/{coordinator["dir"]}.html', "w") as file:
                         file.write(output)
@@ -214,7 +214,7 @@ class WebGenerator:
         
             else:
                 header = self.get_header(page)
-                footer = self.get_footer()
+                footer = WebGenerator.get_footer()
 
                 if "paths" in self.pages[page]:
                     body = '<div class="container">'
