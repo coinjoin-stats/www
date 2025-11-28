@@ -105,8 +105,8 @@ class WebGenerator:
         return header
 
 
-    def get_footer(script=None):
-        footer = """
+    def get_footer():
+        return """
             </div>
             <div id="lightbox">
             <span class="close">&times;</span>
@@ -116,14 +116,9 @@ class WebGenerator:
             </div>
             
             <script src="./js/lightbox.js?v1"></script>
-        """
-        if script is not None:
-            footer += f'    <script src="./js/{script}.js?v1"></script>\n'
-        footer+="""
         </body>
         </html>
         """
-        return footer
 
     def get_img_block(self, imgpath):
         return f"""   
