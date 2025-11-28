@@ -136,7 +136,7 @@ class WebGenerator:
 
     def traverse_directories(self, root_dir, name_start):
         print(root_dir)
-        base_depth = self.base.count(os.sep)
+        base_depth = self.data_source.count(os.sep)
         output = ''
         for dirpath, dirnames, filenames in os.walk(root_dir):
             dirnames.sort(reverse=True)
@@ -158,7 +158,7 @@ class WebGenerator:
                 if not self.is_whitelisted(filename):
                     continue
                 filepath = os.path.join(dirpath, filename)
-                imgpath = os.path.relpath(filepath, start=self.base)
+                imgpath = os.path.relpath(filepath, start=self.data_source)
 
                 output += self.get_img_block(imgpath)
             
