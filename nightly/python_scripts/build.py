@@ -73,6 +73,8 @@ class WebGenerator:
         """
         #         <p>Dataset obtained by monitoring public API:  <a href="https://drive.google.com/drive/folders/1khgqiWnJqd4v30lTrf8d5stCZVRcMeNi?usp=drive_link">Google drive</a> <br>
         for page,page_details in self.pages.items():
+            if page == "joinmarket":
+                continue
             page_dir = page
             if "coordinators" in page_details:
                 page_dir += "/" + page_details["coordinators"][0]["dir"]
