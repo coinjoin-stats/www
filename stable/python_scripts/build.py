@@ -59,11 +59,11 @@ class WebGenerator:
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>CoinJoin Statistics</title>
         <base href="{self.base}"/>
-        <link rel="stylesheet" href="style.css?v1" />
+        <link rel="stylesheet" href="style.css?v2" />
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         </head>
         <body>
-            <p class=banner>Nightly version updated every day available at <a href=https://coinjoin-stats.github.io/www/nightly/index.html>https://coinjoin-stats.github.io/www/nightly/index.html</a></p>
+            <p class=banner>Nightly version updated every day available at <a href=https://coinjoin-stats.github.io/www/index.html>https://coinjoin-stats.github.io/www/index.html</a></p>
             <header>
             <h1>CoinJoin Statistics</h1>
             <p class="update">Last updated: {date}</p>

@@ -40,8 +40,17 @@ git checkout main
 git fetch
 git pull --force
 
-
-../bash_copy.sh $1
+if [ "$1" == "nightly" ]; then
+echo "running nightly build..."
+python ./python_scripts/build.py
+echo "nightly build done"
+else 
+cd ./stable
+echo "running stable build..."
+python ./python_scripts/build.py
+echo "stable build done"
+cd ..
+fi
 
 git config user.name "bot"
 git config user.email "bot@bot.bot"
