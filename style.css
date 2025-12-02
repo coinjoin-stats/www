@@ -73,6 +73,18 @@ header p {
   font-weight: bold;
 }
 
+.menu a.active {
+  background-color: #c0fa9a;
+}
+
+.menu a.active:hover {
+  background-color: #57694b;
+}
+
+.menu a.current.active {
+  background-color: #57694b;
+}
+
 #subnav {
   padding-top: 5px;
 }
@@ -106,10 +118,21 @@ header p {
   color: #fff;
   font-weight: bold;
 }
-
 .update {
   font-size: 1rem;
   color: #777;
+}
+
+#subnav a.active {
+  background-color: #c0fa9a;
+}
+
+#subnav a.active:hover {
+  background-color: #57694b;
+}
+
+#subnav a.current.active {
+  background-color: #57694b;
 }
 
 h2 {
@@ -183,6 +206,23 @@ h3 {
   margin: 0;
   font-size: 1.1rem;
   color: #333;
+}
+
+.large {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 25px;
+}
+.large img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+  cursor: pointer;
 }
 
 /* Lightbox styles */
